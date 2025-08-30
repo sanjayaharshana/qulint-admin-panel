@@ -1,0 +1,39 @@
+.DS_Store
+phpunit.phar
+/vendor
+composer.phar
+composer.lock
+*.project
+.idea/
+.php_cs.cache
+.vscode/
+resources/assets/minify-manifest.json
+resources/assets/open-admin.min.css
+resources/assets/open-admin.min.js
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE files
+*.swp
+*.swo
+*~
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Cache
+cache/
+*.cache
+
+# Temporary files
+tmp/
+temp/
