@@ -3,29 +3,35 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue.svg)](composer.json)
 [![Laravel Version](https://img.shields.io/badge/laravel-%3E%3D10.0-red.svg)](composer.json)
-[![Latest Version](https://img.shields.io/badge/version-3.0.19-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
+[![Latest Version](https://img.shields.io/badge/version-3.0.20-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
 
 A modern, feature-rich Laravel admin panel that's completely free and open-source. Built on top of Laravel framework with a beautiful, responsive interface and extensive functionality. **Qulint Admin Panel** is an upgraded fork of [Open Admin](https://github.com/qulint-admin-org/qulint-admin) that supports Laravel 11 and Laravel 12, since the original Open Admin project has stopped development after Laravel 10.
 
-## What's New in v3.0.19
+## What's New in v3.0.20
 
-### 🎉 Release: Enhanced Documentation & Asset Troubleshooting
-- **✅ Comprehensive Asset Troubleshooting Guide**: Created detailed ASSET_TROUBLESHOOTING.md
-- **✅ Improved Installation Instructions**: Clear steps for publishing assets
-- **✅ Enhanced User Experience**: Better guidance for common issues
-- **✅ Complete Documentation**: Comprehensive troubleshooting and installation guides
+### 🎨 Release: Modern White Theme System
+- **✅ Complete Theme System**: Comprehensive modern white theme with 7 variants
+- **✅ Dynamic Theme Switching**: JavaScript-powered theme switcher with persistence
+- **✅ CSS Custom Properties**: Easy customization with CSS variables
+- **✅ Responsive Design**: Mobile-friendly layouts with touch-friendly elements
 
-### 🔧 Documentation Improvements
-- Created comprehensive ASSET_TROUBLESHOOTING.md with step-by-step solutions
-- Enhanced README.md with clear asset publishing instructions
-- Added troubleshooting section with quick fixes
-- Improved installation process documentation
+### 🎨 Theme Variants
+- **Modern White** - Clean white theme with blue accents (default)
+- **Light Blue** - Soft blue theme with light backgrounds
+- **Light Green** - Fresh green theme with natural colors
+- **Light Purple** - Elegant purple theme with soft tones
+- **Minimal** - Minimalist black and white design
+- **Modern Gray** - Sophisticated gray theme
+- **Warm White** - Warm white theme with orange accents
 
-### 📦 Asset Loading Solutions
-- Clear instructions for publishing assets to public directory
-- Detailed troubleshooting for 404 errors
-- Multiple solutions for different scenarios
-- Complete asset verification checklist
+### 🔧 Modern Features
+- CSS Custom Properties for easy theming
+- Theme persistence using localStorage
+- Smooth transitions and animations
+- Accessibility features (WCAG compliant)
+- Dark mode support
+- Print-optimized styles
+- Comprehensive component library
 
 ## Features
 
