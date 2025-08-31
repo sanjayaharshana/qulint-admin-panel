@@ -85,9 +85,15 @@ composer require sanjayaharshana/qulint-admin-panel
 
 ### 2. Publish Assets
 
+**IMPORTANT**: You must publish the assets to make the admin panel work correctly!
+
 ```bash
-php artisan vendor:publish --provider="Qulint\Admin\AdminServiceProvider"
+php artisan vendor:publish --provider="Qulint\Admin\AdminServiceProvider" --force
 ```
+
+This command will publish all assets (CSS, JS, images) to `public/vendor/qulint-admin/`.
+
+**If you see 404 errors for CSS/JS files, this step is required!**
 
 ### 3. Run Installation Command
 
@@ -285,9 +291,32 @@ return [
 ];
 ```
 
-## Documentation
+## Troubleshooting
 
-For detailed documentation, visit: [https://qulint.com/docs/](https://qulint.com/docs/)
+### Asset Loading Issues
+
+If you're experiencing 404 errors for CSS/JS files like:
+```
+GET http://localhost:8000/vendor/qulint-admin/css/styles.css 404 (Not Found)
+GET http://localhost:8000/vendor/qulint-admin/js/qulint-admin.js 404 (Not Found)
+```
+
+**Solution**: Publish the assets using the command above. The assets must be published to your Laravel application's public directory.
+
+For detailed troubleshooting, see [ASSET_TROUBLESHOOTING.md](ASSET_TROUBLESHOOTING.md).
+
+### Common Issues
+
+1. **Assets not loading**: Run `php artisan vendor:publish --provider="Qulint\Admin\AdminServiceProvider" --force`
+2. **Class not found errors**: Clear cache with `php artisan config:clear && php artisan cache:clear`
+3. **Database errors**: Check your database configuration in `.env`
+4. **Permission errors**: Ensure proper file permissions on `storage/` and `bootstrap/cache/`
+
+### Getting Help
+
+- **Documentation**: [https://qulint.com/docs/](https://qulint.com/docs/)
+- **GitHub Issues**: [Create an issue](https://github.com/sanjayaharshana/qulint-admin-panel/issues)
+- **Asset Troubleshooting**: [ASSET_TROUBLESHOOTING.md](ASSET_TROUBLESHOOTING.md)
 
 ## Contributing
 
