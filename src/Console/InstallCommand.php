@@ -50,6 +50,12 @@ class InstallCommand extends Command
 
         $userModel = config('admin.database.users_model');
 
+        // Check if the user model is configured
+        if (!$userModel || !class_exists($userModel)) {
+            $this->warn('Admin configuration not found. Please run: php artisan vendor:publish --provider="Qulint\Admin\AdminServiceProvider"');
+            return;
+        }
+
         if ($userModel::count() == 0) {
             $this->call('db:seed', ['--class' => \Qulint\Admin\Auth\Database\AdminTablesSeeder::class]);
         }
@@ -63,6 +69,12 @@ class InstallCommand extends Command
     protected function initAdminDirectory()
     {
         $this->directory = config('admin.directory');
+
+        // Check if admin configuration exists
+        if (!$this->directory) {
+            $this->warn('Admin configuration not found. Please run: php artisan vendor:publish --provider="Qulint\Admin\AdminServiceProvider"');
+            return;
+        }
 
         if (is_dir($this->directory)) {
             $this->line("<error>{$this->directory} directory already exists !</error> ");
