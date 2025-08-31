@@ -3,10 +3,10 @@
 namespace DummyNamespace;
 
 use DummyModelNamespace;
-use OpenAdmin\Admin\Controllers\AdminController;
-use OpenAdmin\Admin\Form;
-use OpenAdmin\Admin\Grid;
-use OpenAdmin\Admin\Show;
+use Qulint\Admin\Controllers\AdminController;
+use Qulint\Admin\Form;
+use Qulint\Admin\Grid;
+use Qulint\Admin\Show;
 
 class DummyClass extends AdminController
 {
