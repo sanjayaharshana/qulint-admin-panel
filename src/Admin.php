@@ -280,7 +280,7 @@ class Admin
     /**
      * Get navbar object.
      *
-     * @return \Qulint\\Admin\Widgets\Navbar
+     * @return \Qulint\Admin\Widgets\Navbar
      */
     public function getNavbar()
     {
@@ -317,7 +317,7 @@ class Admin
 
         app('router')->group($attributes, function ($router) {
             /* @var \Illuminate\Support\Facades\Route $router */
-            $router->namespace('\Qulint\\Admin\Controllers')->group(function ($router) {
+            $router->namespace('\Qulint\Admin\Controllers')->group(function ($router) {
                 /* @var \Illuminate\Routing\Router $router */
                 $router->resource('auth/users', 'UserController')->names('admin.auth.users');
                 $router->resource('auth/roles', 'RoleController')->names('admin.auth.roles');

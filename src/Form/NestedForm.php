@@ -92,7 +92,7 @@ class NestedForm
     protected $original = [];
 
     /**
-     * @var \Qulint\\Admin\Form|\Qulint\\Admin\Widgets\Form
+     * @var \Qulint\Admin\Form|\Qulint\Admin\Widgets\Form
      */
     protected $form;
 
@@ -311,7 +311,7 @@ class NestedForm
                 $value = $field->prepare($value);
             }
 
-            if (($field instanceof \Qulint\\Admin\Form\Field\Hidden) || $value != $field->original() || ($this->save_null_values && $value == null)) {
+            if (($field instanceof \Qulint\Admin\Form\Field\Hidden) || $value != $field->original() || ($this->save_null_values && $value == null)) {
                 if (is_array($columns)) {
                     foreach ($columns as $name => $column) {
                         Arr::set($prepared, $column, $value[$name]);

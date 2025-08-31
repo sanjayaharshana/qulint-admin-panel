@@ -70,7 +70,7 @@ class MultipleSteps implements Renderable
         $class = $this->steps[$this->current];
 
         if (!is_subclass_of($class, StepForm::class)) {
-            admin_error("Class [{$class}] must be a sub-class of [Qulint\\Admin\Widgets\StepForm].");
+            admin_error("Class [{$class}] must be a sub-class of [Qulint\Admin\Widgets\StepForm].");
 
             return;
         }

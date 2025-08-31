@@ -1604,7 +1604,7 @@ class Field implements Renderable
     /**
      * @param \Closure $callback
      *
-     * @return \Qulint\\Admin\Form\Field
+     * @return \Qulint\Admin\Form\Field
      */
     public function with(Closure $callback): self
     {

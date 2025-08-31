@@ -75,7 +75,7 @@ class Editable extends AbstractDisplayer
 
         $options = json_encode($this->options);
 
-        $class = '\Qulint\\Admin\Grid\Displayers\\'.ucfirst($this->type);
+        $class = '\Qulint\Admin\Grid\Displayers\\'.ucfirst($this->type);
         $displayer = new $class($this->value, $this->grid, $this->column, $this->row);
         $displayer->options = $this->options;
 

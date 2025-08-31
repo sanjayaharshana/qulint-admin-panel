@@ -37,7 +37,7 @@ trait BelongsToRelation
     {
         if (!class_exists($selectable) || !is_subclass_of($selectable, Selectable::class)) {
             throw new \InvalidArgumentException(
-                "[Class [{$selectable}] must be a sub class of Qulint\\Admin\Grid\Selectable"
+                "[Class [{$selectable}] must be a sub class of Qulint\Admin\Grid\Selectable"
             );
         }
 
@@ -264,7 +264,7 @@ JS;
     }
 
     /**
-     * @return \Qulint\\Admin\Grid
+     * @return \Qulint\Admin\Grid
      */
     protected function makeGrid()
     {

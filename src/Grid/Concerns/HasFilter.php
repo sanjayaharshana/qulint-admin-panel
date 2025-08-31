@@ -11,7 +11,7 @@ trait HasFilter
     /**
      * The grid Filter.
      *
-     * @var \Qulint\\Admin\Grid\Filter
+     * @var \Qulint\Admin\Grid\Filter
      */
     protected $filter;
 

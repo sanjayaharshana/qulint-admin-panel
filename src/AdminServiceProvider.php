@@ -206,7 +206,7 @@ class AdminServiceProvider extends ServiceProvider
     public function bladeDirectives()
     {
         Blade::directive('box', function ($title) {
-            return "<?php \$box = new \Qulint\\Admin\Widgets\Box({$title}, '";
+            return "<?php \$box = new \Qulint\Admin\Widgets\Box({$title}, '";
         });
 
         Blade::directive('endbox', function ($expression) {

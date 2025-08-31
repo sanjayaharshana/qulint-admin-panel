@@ -28,7 +28,7 @@ class PublishCommand extends Command
     public function handle()
     {
         $force = $this->option('force');
-        $options = ['--provider' => 'Qulint\\Admin\AdminServiceProvider'];
+        $options = ['--provider' => 'Qulint\Admin\AdminServiceProvider'];
         if ($force == true) {
             $options['--force'] = true;
         }

@@ -30,7 +30,7 @@ class MenuController extends Controller
                 $row->column(6, $this->treeView()->render());
 
                 $row->column(6, function (Column $column) {
-                    $form = new \Qulint\\Admin\Widgets\Form();
+                    $form = new \Qulint\Admin\Widgets\Form();
                     $form->action(admin_url('auth/menu'));
 
                     $menuModel = config('admin.database.menu_model');
@@ -65,7 +65,7 @@ class MenuController extends Controller
     }
 
     /**
-     * @return \Qulint\\Admin\Tree
+     * @return \Qulint\Admin\Tree
      */
     protected function treeView()
     {

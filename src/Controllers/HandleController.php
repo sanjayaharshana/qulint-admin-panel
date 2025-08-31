@@ -158,7 +158,7 @@ class HandleController extends Controller
         $class = str_replace('_', '\\', $class);
 
         if (class_exists($class)) {
-            /** @var \Qulint\\Admin\Grid\Selectable $selectable */
+            /** @var \Qulint\Admin\Grid\Selectable $selectable */
             $selectable = new $class(...array_values($args));
 
             return $selectable->render();

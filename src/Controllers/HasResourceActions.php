@@ -7,7 +7,7 @@ trait HasResourceActions
     /**
      * Returns the form with possible callback hooks.
      *
-     * @return \Qulint\\Admin\Form;
+     * @return \Qulint\Admin\Form;
      */
     public function getForm()
     {

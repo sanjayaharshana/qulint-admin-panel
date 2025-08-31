@@ -139,13 +139,13 @@ class BatchActions extends AbstractTool
     {
         if (!$this->enableEdit) {
             $this->actions = $this->actions->filter(function ($action, $key) {
-                return get_class($action) != "Qulint\\Admin\Grid\Tools\BatchEdit";
+                return get_class($action) != "Qulint\Admin\Grid\Tools\BatchEdit";
             });
         }
 
         if (!$this->enableDelete) {
             $this->actions = $this->actions->filter(function ($action, $key) {
-                return get_class($action) != "Qulint\\Admin\Grid\Tools\BatchDelete";
+                return get_class($action) != "Qulint\Admin\Grid\Tools\BatchDelete";
             });
         }
 

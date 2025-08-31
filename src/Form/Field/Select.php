@@ -321,10 +321,10 @@ JS;
         $class = get_class($this);
 
         return in_array($class, [
-            'Qulint\\Admin\Form\Field\Select',
-            'Qulint\\Admin\Form\Field\Tags',
-            'Qulint\\Admin\Form\Field\MultipleSelect',
-            'Qulint\\Admin\Form\Field\Timezone',
+            'Qulint\Admin\Form\Field\Select',
+            'Qulint\Admin\Form\Field\Tags',
+            'Qulint\Admin\Form\Field\MultipleSelect',
+            'Qulint\Admin\Form\Field\Timezone',
         ]);
     }
 

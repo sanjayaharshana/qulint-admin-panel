@@ -60,7 +60,7 @@ class DevLinksCommand extends Command
      */
     protected function links()
     {
-        $reflector = new ReflectionClass("\Qulint\\Admin\Admin");
+        $reflector = new ReflectionClass("\Qulint\Admin\Admin");
         $dir = str_replace('src/Admin.php', '', $reflector->getFileName()).'resources/assets/';
 
         return [public_path('vendor/open-admin') => $dir];

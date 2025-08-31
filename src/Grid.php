@@ -42,7 +42,7 @@ class Grid
     /**
      * The grid data model instance.
      *
-     * @var \Qulint\\Admin\Grid\Model|\Illuminate\Database\Eloquent\Builder
+     * @var \Qulint\Admin\Grid\Model|\Illuminate\Database\Eloquent\Builder
      */
     protected $model;
 

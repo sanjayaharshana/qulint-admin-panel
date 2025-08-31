@@ -7,7 +7,7 @@ use Qulint\Admin\Grid;
 abstract class AbstractExporter implements ExporterInterface
 {
     /**
-     * @var \Qulint\\Admin\Grid
+     * @var \Qulint\Admin\Grid
      */
     protected $grid;
 

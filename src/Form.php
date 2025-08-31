@@ -1376,7 +1376,7 @@ class Form implements Renderable
      *
      * @param Closure $callback
      *
-     * @return \Qulint\\Admin\Form\Footer
+     * @return \Qulint\Admin\Form\Footer
      */
     public function footer(Closure $callback = null)
     {
