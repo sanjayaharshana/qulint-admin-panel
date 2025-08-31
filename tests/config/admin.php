@@ -3,9 +3,9 @@
 return [
 
     /*
-     * Open-admin name.
+     * qulint-admin name.
      */
-    'name' => 'Open-admin',
+    'name' => 'qulint-admin',
 
     /*
      * Logo in admin panel header.
@@ -30,12 +30,12 @@ return [
     ],
 
     /*
-     * Open-admin install directory.
+     * qulint-admin install directory.
      */
     'directory' => app_path('Admin'),
 
     /*
-     * Open-admin html title.
+     * qulint-admin html title.
      */
     'title' => 'Admin',
 
@@ -45,7 +45,7 @@ return [
     'secure' => false,
 
     /*
-     * Open-admin auth setting.
+     * qulint-admin auth setting.
      */
     'auth' => [
         'controller' => Qulint\Admin\Controllers\AuthController::class,
@@ -66,7 +66,7 @@ return [
     ],
 
     /*
-     * Open-admin upload setting.
+     * qulint-admin upload setting.
      */
     'upload' => [
 
@@ -79,7 +79,7 @@ return [
     ],
 
     /*
-     * Open-admin database setting.
+     * qulint-admin database setting.
      */
     'database' => [
 
@@ -111,7 +111,7 @@ return [
     ],
 
     /*
-     * By setting this option to open or close operation log in open-admin.
+     * By setting this option to open or close operation log in qulint-admin.
      */
     'operation_log' => [
 

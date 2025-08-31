@@ -5,7 +5,7 @@ namespace Qulint\Admin\Form\Field;
 class Decimal extends Text
 {
     protected static $js = [
-        '/vendor/open-admin/inputmask/inputmask.min.js',
+        '/vendor/qulint-admin/inputmask/inputmask.min.js',
     ];
 
     /**

@@ -57,7 +57,7 @@ trait HasMediaPicker
     {
         if (!class_exists("Qulint\Admin\Media\MediaManager")) {
             throw new \Exception(
-                '[Media Manager extention not installed yet.<br> Install using: <b>composer require open-admin-ext/media-manager</b><br><br>'
+                '[Media Manager extention not installed yet.<br> Install using: <b>composer require qulint-admin-ext/media-manager</b><br><br>'
             );
         }
 

@@ -20,7 +20,7 @@ class ImportCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Import a Open-admin extension';
+    protected $description = 'Import a qulint-admin extension';
 
     /**
      * Execute the console command.

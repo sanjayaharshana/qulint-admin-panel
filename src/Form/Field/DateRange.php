@@ -25,7 +25,7 @@ class DateRange extends Field
     protected $column = [];
 
     protected static $js = [
-        '/vendor/open-admin/flatpickr/plugins/rangePlugin.js',
+        '/vendor/qulint-admin/flatpickr/plugins/rangePlugin.js',
     ];
 
     public function __construct($column, $arguments)

@@ -1,6 +1,6 @@
 # Open Admin vs Qulint Admin Panel Comparison
 
-This document provides a comprehensive comparison between the original [Open Admin](https://github.com/open-admin-org/open-admin) project and the upgraded **Qulint Admin Panel**.
+This document provides a comprehensive comparison between the original [Open Admin](https://github.com/qulint-admin-org/qulint-admin) project and the upgraded **Qulint Admin Panel**.
 
 ## Overview
 
@@ -11,7 +11,7 @@ This document provides a comprehensive comparison between the original [Open Adm
 | **PHP Support** | >= 7.3 | >= 8.1 |
 | **Last Update** | 2023 | 2025 (Active) |
 | **Namespace** | `Qulint\Admin` | `Qulint\Admin` |
-| **Package Name** | `open-admin-org/open-admin` | `sanjayaharshana/qulint-admin-panel` |
+| **Package Name** | `qulint-admin-org/qulint-admin` | `sanjayaharshana/qulint-admin-panel` |
 
 ## Key Differences
 
@@ -94,7 +94,7 @@ use Qulint\Admin\Facades\Admin;
 
 #### Open Admin
 ```bash
-composer require open-admin-org/open-admin
+composer require qulint-admin-org/qulint-admin
 php artisan vendor:publish --provider="Qulint\Admin\AdminServiceProvider"
 php artisan admin:install
 ```
@@ -113,7 +113,7 @@ php artisan admin:install
 #### Step 1: Update Composer Dependencies
 ```bash
 # Remove Open Admin
-composer remove open-admin-org/open-admin
+composer remove qulint-admin-org/qulint-admin
 
 # Install Qulint Admin Panel
 composer require sanjayaharshana/qulint-admin-panel:^3.0
@@ -227,7 +227,7 @@ php artisan admin:install
 ### Migration from Open Admin
 ```bash
 # In existing project
-composer remove open-admin-org/open-admin
+composer remove qulint-admin-org/qulint-admin
 composer require sanjayaharshana/qulint-admin-panel:^3.0
 
 # Update namespaces and republish
@@ -239,7 +239,7 @@ php artisan config:clear
 ## Support and Community
 
 ### Open Admin
-- **GitHub**: [open-admin-org/open-admin](https://github.com/open-admin-org/open-admin)
+- **GitHub**: [qulint-admin-org/qulint-admin](https://github.com/qulint-admin-org/qulint-admin)
 - **Status**: ❌ Abandoned
 - **Last Activity**: 2023
 

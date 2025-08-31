@@ -47,53 +47,53 @@ class Dashboard
     {
         $extensions = [
             'helpers' => [
-                'name' => 'open-admin-ext/helpers',
-                'link' => 'https://github.com/open-admin-org/helpers',
+                'name' => 'qulint-admin-ext/helpers',
+                'link' => 'https://github.com/qulint-admin-org/helpers',
                 'icon' => 'cogs',
             ],
             'log-viewer' => [
-                'name' => 'open-admin-ext/log-viewer',
-                'link' => 'https://github.com/open-admin-org/log-viewer',
+                'name' => 'qulint-admin-ext/log-viewer',
+                'link' => 'https://github.com/qulint-admin-org/log-viewer',
                 'icon' => 'database',
             ],
             'backup' => [
-                'name' => 'open-admin-ext/backup',
-                'link' => 'https://github.com/open-admin-org/backup',
+                'name' => 'qulint-admin-ext/backup',
+                'link' => 'https://github.com/qulint-admin-org/backup',
                 'icon' => 'copy',
             ],
             'config' => [
-                'name' => 'open-admin-ext/config',
-                'link' => 'https://github.com/open-admin-org/config',
+                'name' => 'qulint-admin-ext/config',
+                'link' => 'https://github.com/qulint-admin-org/config',
                 'icon' => 'toggle-on',
             ],
             'api-tester' => [
-                'name' => 'open-admin-ext/api-tester',
-                'link' => 'https://github.com/open-admin-org/api-tester',
+                'name' => 'qulint-admin-ext/api-tester',
+                'link' => 'https://github.com/qulint-admin-org/api-tester',
                 'icon' => 'sliders-h',
             ],
             'media-manager' => [
-                'name' => 'open-admin-ext/media-manager',
-                'link' => 'https://github.com/open-admin-org/media-manager',
+                'name' => 'qulint-admin-ext/media-manager',
+                'link' => 'https://github.com/qulint-admin-org/media-manager',
                 'icon' => 'file',
             ],
             'scheduling' => [
-                'name' => 'open-admin-ext/scheduling',
-                'link' => 'https://github.com/open-admin-org/scheduling',
+                'name' => 'qulint-admin-ext/scheduling',
+                'link' => 'https://github.com/qulint-admin-org/scheduling',
                 'icon' => 'clock',
             ],
             'reporter' => [
-                'name' => 'open-admin-ext/reporter',
-                'link' => 'https://github.com/open-admin-org/reporter',
+                'name' => 'qulint-admin-ext/reporter',
+                'link' => 'https://github.com/qulint-admin-org/reporter',
                 'icon' => 'bug',
             ],
             'redis-manager' => [
-                'name' => 'open-admin-ext/redis-manager',
-                'link' => 'https://github.com/open-admin-org/redis-manager',
+                'name' => 'qulint-admin-ext/redis-manager',
+                'link' => 'https://github.com/qulint-admin-org/redis-manager',
                 'icon' => 'flask',
             ],
             'grid-sortable' => [
-                'name' => 'open-admin-ext/grid-sortable',
-                'link' => 'https://github.com/open-admin-org/grid-sortable',
+                'name' => 'qulint-admin-ext/grid-sortable',
+                'link' => 'https://github.com/qulint-admin-org/grid-sortable',
                 'icon' => 'arrows-alt-v',
             ],
         ];

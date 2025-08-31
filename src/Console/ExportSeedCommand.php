@@ -20,7 +20,7 @@ class ExportSeedCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Export seed a Open-admin database tables menu, roles and permissions';
+    protected $description = 'Export seed a qulint-admin database tables menu, roles and permissions';
 
     /**
      * Execute the console command.

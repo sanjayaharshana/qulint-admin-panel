@@ -9,7 +9,7 @@ class Number extends Text
     use HasNumberModifiers;
 
     protected static $js = [
-        '/vendor/open-admin/fields/number-input.js',
+        '/vendor/qulint-admin/fields/number-input.js',
     ];
 
     protected $view = 'admin::form.number';

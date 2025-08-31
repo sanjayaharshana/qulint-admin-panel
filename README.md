@@ -5,14 +5,14 @@
 [![Laravel Version](https://img.shields.io/badge/laravel-%3E%3D10.0-red.svg)](composer.json)
 [![Latest Version](https://img.shields.io/badge/version-3.0.14-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
 
-A modern, feature-rich Laravel admin panel that's completely free and open-source. Built on top of Laravel framework with a beautiful, responsive interface and extensive functionality. **Qulint Admin Panel** is an upgraded fork of [Open Admin](https://github.com/open-admin-org/open-admin) that supports Laravel 11 and Laravel 12, since the original Open Admin project has stopped development after Laravel 10.
+A modern, feature-rich Laravel admin panel that's completely free and open-source. Built on top of Laravel framework with a beautiful, responsive interface and extensive functionality. **Qulint Admin Panel** is an upgraded fork of [Open Admin](https://github.com/qulint-admin-org/qulint-admin) that supports Laravel 11 and Laravel 12, since the original Open Admin project has stopped development after Laravel 10.
 
 ## What's New in v3.0.14
 
 ### 🎉 Major Release: Complete Namespace Migration & Stub File Fixes
 - **✅ Complete Namespace Migration**: Fixed all stub files to use `Qulint\Admin` namespace
 - **✅ Resolved "Class not found" errors**: Generated controllers now work correctly
-- **✅ Fixed Asset Paths**: Updated all asset references from `open-admin` to `qulint-admin`
+- **✅ Fixed Asset Paths**: Updated all asset references from `qulint-admin` to `qulint-admin`
 - **✅ Laravel 12 Support**: Full compatibility with latest Laravel versions
 - **✅ Improved Installation**: `admin:install` command now generates working controllers
 
@@ -322,7 +322,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Based on [Open Admin](https://github.com/open-admin-org/open-admin) by the Open Admin team
+- Based on [Open Admin](https://github.com/qulint-admin-org/qulint-admin) by the Open Admin team
 - Originally forked from [laravel-admin](https://github.com/z-song/laravel-admin) by z-song
 - Built with Laravel framework
 - Uses Bootstrap 5 for UI components

@@ -14,11 +14,11 @@ class File extends Field
     use HasMediaPicker;
 
     protected static $css = [
-        '/vendor/open-admin/fields/file-upload/file-upload.css',
+        '/vendor/qulint-admin/fields/file-upload/file-upload.css',
     ];
 
     protected static $js = [
-        '/vendor/open-admin/fields/file-upload/file-upload.js',
+        '/vendor/qulint-admin/fields/file-upload/file-upload.js',
     ];
 
     public $type     = 'file';

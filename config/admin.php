@@ -99,7 +99,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Open-admin auth setting
+    | qulint-admin auth setting
     |--------------------------------------------------------------------------
     |
     | Authentication settings for all admin pages. Include an authentication
@@ -148,7 +148,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Open-admin upload setting
+    | qulint-admin upload setting
     |--------------------------------------------------------------------------
     |
     | File system configuration for form upload files and images, including
@@ -169,10 +169,10 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Open-admin database settings
+    | qulint-admin database settings
     |--------------------------------------------------------------------------
     |
-    | Here are database settings for open-admin builtin model & tables.
+    | Here are database settings for qulint-admin builtin model & tables.
     |
     */
     'database' => [
@@ -209,7 +209,7 @@ return [
     | User operation log setting
     |--------------------------------------------------------------------------
     |
-    | By setting this option to open or close operation log in open-admin.
+    | By setting this option to open or close operation log in qulint-admin.
     |
     */
     'operation_log' => [
@@ -314,7 +314,7 @@ return [
     | Show version at footer
     |--------------------------------------------------------------------------
     |
-    | Whether to display the version number of open-admin at the footer of
+    | Whether to display the version number of qulint-admin at the footer of
     | each page
     |
     */
@@ -406,7 +406,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | You can find all available extensions here
-    | https://github.com/open-admin-extensions.
+    | https://github.com/qulint-admin-extensions.
     |
     */
     'extensions' => [

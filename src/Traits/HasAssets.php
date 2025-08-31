@@ -148,7 +148,7 @@ trait HasAssets
         }
 
         $skin = config('admin.skin', 'skin-blue-light');
-        //array_unshift(static::$baseCss, "vendor/open-admin/AdminLTE/dist/css/skins/{$skin}.min.css");
+        //array_unshift(static::$baseCss, "vendor/qulint-admin/AdminLTE/dist/css/skins/{$skin}.min.css");
 
         return static::$baseCss;
     }

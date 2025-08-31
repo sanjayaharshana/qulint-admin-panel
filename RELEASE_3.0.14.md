@@ -13,7 +13,7 @@
 ### ✅ Complete Namespace Migration
 - **Fixed all stub files** to use `Qulint\Admin` namespace instead of `OpenAdmin\Admin`
 - **Resolved "Class not found" errors** in generated controllers
-- **Fixed asset paths** in generated code from `open-admin` to `qulint-admin`
+- **Fixed asset paths** in generated code from `qulint-admin` to `qulint-admin`
 
 ### 🔧 Critical Bug Fixes
 - **AuthController Generation**: Fixed stub file to extend correct base class

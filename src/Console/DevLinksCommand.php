@@ -20,7 +20,7 @@ class DevLinksCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Creates a symbolic link from the open-admin/resources/assets dir to public/vendor/open-admin for ease of development';
+    protected $description = 'Creates a symbolic link from the qulint-admin/resources/assets dir to public/vendor/qulint-admin for ease of development';
 
     /**
      * Execute the console command.
@@ -63,7 +63,7 @@ class DevLinksCommand extends Command
         $reflector = new ReflectionClass("\Qulint\Admin\Admin");
         $dir = str_replace('src/Admin.php', '', $reflector->getFileName()).'resources/assets/';
 
-        return [public_path('vendor/open-admin') => $dir];
+        return [public_path('vendor/qulint-admin') => $dir];
     }
 
     /**

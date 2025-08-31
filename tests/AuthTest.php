@@ -34,9 +34,9 @@ class AuthTest extends TestCase
             ->see('Laravel version')
 
             ->see('Available extensions')
-            ->seeLink('open-admin-ext/helpers', 'https://github.com/open-admin-extensions/helpers')
-            ->seeLink('open-admin-ext/backup', 'https://github.com/open-admin-extensions/backup')
-            ->seeLink('open-admin-ext/media-manager', 'https://github.com/open-admin-extensions/media-manager')
+            ->seeLink('qulint-admin-ext/helpers', 'https://github.com/qulint-admin-extensions/helpers')
+            ->seeLink('qulint-admin-ext/backup', 'https://github.com/qulint-admin-extensions/backup')
+            ->seeLink('qulint-admin-ext/media-manager', 'https://github.com/qulint-admin-extensions/media-manager')
 
             ->see('Dependencies')
             ->see('php')
