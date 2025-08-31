@@ -5,7 +5,7 @@
     "keywords": ["laravel", "admin", "grid", "form", "qulint-admin","qulint","free"],
     "homepage": "https://github.com/sanjayaharshana/qulint-admin-panel",
     "license": "MIT",
-    "version": "3.0.3",
+    "version": "3.0.4",
     "minimum-stability": "stable",
     "prefer-stable": true,
     "authors": [
@@ -50,7 +50,8 @@
     "suggest": {
         "intervention/image": "Required to handling and manipulation upload images (^2.7|^3.0).",
         "spatie/eloquent-sortable": "Required to built orderable gird.",
-        "doctrine/dbal": "Optional: For advanced database operations and schema management."
+        "doctrine/dbal": "Optional: For advanced database operations and schema management.",
+        "carbonphp/carbon-doctrine-types": "Optional: For Carbon integration with Doctrine (^4.0 required)"
     },
     "extra": {
         "laravel": {
@@ -63,7 +64,8 @@
         }
     },
     "conflict": {
-        "carbonphp/carbon-doctrine-types": "<4.0"
+        "carbonphp/carbon-doctrine-types": "<4.0",
+        "doctrine/dbal": "<3.0"
     },
     "config": {
         "process-timeout": 0

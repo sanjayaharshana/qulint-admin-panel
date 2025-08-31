@@ -8,14 +8,16 @@ This guide helps resolve dependency conflicts when installing Qulint Admin Panel
 
 **Problem**: Conflicts between `doctrine/dbal`, `carbonphp/carbon-doctrine-types`, and `symfony/http-foundation`
 
-**Solution**: Doctrine DBAL is now optional and not required by default
+**Solution**: Both packages are now optional and have proper version constraints
 
 ```bash
-# Doctrine DBAL is now optional - only install if needed
+# Both packages are optional - only install if needed
 composer require doctrine/dbal:^3.0 --optional
+composer require carbonphp/carbon-doctrine-types:^4.0 --optional
 
 # Or install manually if you need advanced database operations
 composer require doctrine/dbal:^3.0
+composer require carbonphp/carbon-doctrine-types:^4.0
 ```
 
 ### 2. PHP Version Conflicts
@@ -99,6 +101,11 @@ composer show carbonphp/carbon-doctrine-types
 # Force install specific versions
 composer require doctrine/dbal:^3.0 --force
 composer require carbonphp/carbon-doctrine-types:^4.0 --force
+
+# Or remove conflicting packages and reinstall
+composer remove doctrine/dbal carbonphp/carbon-doctrine-types
+composer require doctrine/dbal:^3.0
+composer require carbonphp/carbon-doctrine-types:^4.0
 ```
 
 ### Error: "PHP version does not satisfy requirement"
@@ -111,6 +118,22 @@ sudo apt install php8.1 php8.1-cli php8.1-common
 
 # For CentOS/RHEL:
 sudo yum install php81w php81w-cli php81w-common
+```
+
+### Error: "carbonphp/carbon-doctrine-types conflicts"
+
+```bash
+# This is a common issue with Laravel 12 and Carbon integration
+# Solution: Use version 4.0+ of carbonphp/carbon-doctrine-types
+
+# Remove old version
+composer remove carbonphp/carbon-doctrine-types
+
+# Install compatible version
+composer require carbonphp/carbon-doctrine-types:^4.0
+
+# If you still have conflicts, try this approach:
+composer require carbonphp/carbon-doctrine-types:^4.0 --with nesbot/carbon:^3.8.4
 ```
 
 ### Error: "symfony/http-foundation conflicts"
@@ -130,7 +153,11 @@ composer update symfony/http-foundation symfony/dom-crawler --with-dependencies
     },
     "suggest": {
         "doctrine/dbal": "Optional: For advanced database operations",
-        "carbonphp/carbon-doctrine-types": "Optional: For Carbon integration"
+        "carbonphp/carbon-doctrine-types": "Optional: For Carbon integration (^4.0 required)"
+    },
+    "conflict": {
+        "doctrine/dbal": "<3.0",
+        "carbonphp/carbon-doctrine-types": "<4.0"
     }
 }
 ```
@@ -160,9 +187,10 @@ If you continue to experience issues:
 
 ## Version Compatibility Table
 
-| Qulint Admin Panel | Laravel | PHP | Doctrine DBAL | Status |
-|-------------------|---------|-----|----------------|--------|
-| 3.0.2 | 10.x, 11.x, 12.x | ^8.1 | Optional | ✅ Supported |
-| 3.0.0 | 10.x, 11.x, 12.x | ^8.1 | ^3.0\|^4.0 | ⚠️ Legacy |
-| 2.0.0 | 7.x, 8.x, 9.x, 10.x | ^7.3 | 2.*\|3.* | ❌ Deprecated |
-| 1.0.0 | 7.x, 8.x, 9.x | ^7.3 | 2.*\|3.* | ❌ Deprecated |
+| Qulint Admin Panel | Laravel | PHP | Doctrine DBAL | Carbon Doctrine Types | Status |
+|-------------------|---------|-----|----------------|---------------------|--------|
+| 3.0.4 | 10.x, 11.x, 12.x | ^8.1 | Optional | Optional (^4.0) | ✅ Supported |
+| 3.0.3 | 10.x, 11.x, 12.x | ^8.1 | Optional | Optional | ⚠️ Legacy |
+| 3.0.0 | 10.x, 11.x, 12.x | ^8.1 | ^3.0\|^4.0 | ^3.0\|^4.0 | ❌ Deprecated |
+| 2.0.0 | 7.x, 8.x, 9.x, 10.x | ^7.3 | 2.*\|3.* | 2.*\|3.* | ❌ Deprecated |
+| 1.0.0 | 7.x, 8.x, 9.x | ^7.3 | 2.*\|3.* | 2.*\|3.* | ❌ Deprecated |
