@@ -3,29 +3,29 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue.svg)](composer.json)
 [![Laravel Version](https://img.shields.io/badge/laravel-%3E%3D10.0-red.svg)](composer.json)
-[![Latest Version](https://img.shields.io/badge/version-3.0.18-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
+[![Latest Version](https://img.shields.io/badge/version-3.0.19-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
 
 A modern, feature-rich Laravel admin panel that's completely free and open-source. Built on top of Laravel framework with a beautiful, responsive interface and extensive functionality. **Qulint Admin Panel** is an upgraded fork of [Open Admin](https://github.com/qulint-admin-org/qulint-admin) that supports Laravel 11 and Laravel 12, since the original Open Admin project has stopped development after Laravel 10.
 
-## What's New in v3.0.18
+## What's New in v3.0.19
 
-### 🎉 Release: Complete JavaScript File Renaming & Asset Fixes
-- **✅ Fixed JavaScript File Names**: Renamed all JS files from open-admin to qulint-admin
-- **✅ Complete Asset Alignment**: All asset files now match the expected qulint-admin names
-- **✅ Resolved 404 Errors**: Fixed missing JavaScript files that were causing 404 errors
-- **✅ Enhanced Asset Loading**: All CSS, JS, and image files now load correctly
+### 🎉 Release: Enhanced Documentation & Asset Troubleshooting
+- **✅ Comprehensive Asset Troubleshooting Guide**: Created detailed ASSET_TROUBLESHOOTING.md
+- **✅ Improved Installation Instructions**: Clear steps for publishing assets
+- **✅ Enhanced User Experience**: Better guidance for common issues
+- **✅ Complete Documentation**: Comprehensive troubleshooting and installation guides
 
-### 🔧 JavaScript File Fixes
-- Renamed all JavaScript files from open-admin-*.js to qulint-admin-*.js
-- Fixed asset path mismatches between file names and expected paths
-- Resolved 404 errors for all JavaScript files
-- Ensured complete alignment between file names and asset references
+### 🔧 Documentation Improvements
+- Created comprehensive ASSET_TROUBLESHOOTING.md with step-by-step solutions
+- Enhanced README.md with clear asset publishing instructions
+- Added troubleshooting section with quick fixes
+- Improved installation process documentation
 
-### 📦 Complete Asset Resolution
-- All asset references now use qulint-admin namespace
-- Fixed JavaScript file loading from correct paths
-- Resolved dashboard CSS and JS loading issues
-- Complete migration from open-admin to qulint-admin file names
+### 📦 Asset Loading Solutions
+- Clear instructions for publishing assets to public directory
+- Detailed troubleshooting for 404 errors
+- Multiple solutions for different scenarios
+- Complete asset verification checklist
 
 ## Features
 

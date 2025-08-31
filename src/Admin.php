@@ -25,7 +25,7 @@ class Admin
      *
      * @var string
      */
-    public const VERSION = '3.0.18';
+    public const VERSION = '3.0.19';
 
     /**
      * @var Navbar
