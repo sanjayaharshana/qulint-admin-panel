@@ -57,7 +57,7 @@ class Administrator extends Model implements AuthenticatableContract
             return Storage::disk(config('admin.upload.disk'))->url($avatar);
         }
 
-        $default = config('admin.default_avatar') ?: '/vendor/qulint-admin/qulint-admin/gfx/user.svg';
+        $default = config('admin.default_avatar') ?: '/vendor/qulint-admin/gfx/user.svg';
 
         return admin_asset($default);
     }

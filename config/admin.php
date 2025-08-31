@@ -263,7 +263,7 @@ return [
     | Set a default avatar for newly created users.
     |
     */
-    'default_avatar' => '/vendor/qulint-admin/qulint-admin/gfx/user.svg',
+    'default_avatar' => '/vendor/qulint-admin/gfx/user.svg',
 
     /*
     |--------------------------------------------------------------------------

@@ -109,7 +109,7 @@ php artisan admin:install --force
     // ... other auth settings
 ],
 
-'default_avatar' => '/vendor/qulint-admin/qulint-admin/gfx/user.svg',
+'default_avatar' => '/vendor/qulint-admin/gfx/user.svg',
 ```
 
 ### Asset Paths:
