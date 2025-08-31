@@ -6,7 +6,7 @@
 
 A modern, feature-rich Laravel admin panel that's completely free and open-source. Built on top of Laravel framework with a beautiful, responsive interface and extensive functionality.
 
-## 🚀 Features
+## Features
 
 ### Core Features
 - **Modern UI/UX**: Clean, responsive design with Bootstrap 5
@@ -47,14 +47,14 @@ A modern, feature-rich Laravel admin panel that's completely free and open-sourc
 - API tester
 - Scheduling tools
 
-## 📋 Requirements
+## Requirements
 
 - PHP >= 7.3
 - Laravel >= 7.0
 - MySQL/PostgreSQL/SQLite
 - Composer
 
-## 🛠 Installation
+## Installation
 
 ### 1. Install via Composer
 
@@ -100,7 +100,7 @@ Visit `http://your-app.com/admin` and login with:
 - **Username**: `admin`
 - **Password**: `admin`
 
-## 📖 Quick Start
+## Quick Start
 
 ### Creating a Resource
 
@@ -175,7 +175,7 @@ Admin::menu()->add([
 ]);
 ```
 
-## 🎨 Customization
+## Customization
 
 ### Custom Theme
 
@@ -217,7 +217,7 @@ class CustomAction extends RowAction
 }
 ```
 
-## 🔧 Configuration
+## Configuration
 
 The main configuration file is located at `config/admin.php`. Key configuration options:
 
@@ -244,7 +244,7 @@ QINIU_SECRET_KEY=your-qiniu-secret-key
 QINIU_BUCKET=your-qiniu-bucket
 ```
 
-⚠️ **Security**: Never commit real credentials to your repository. Always use environment variables for sensitive information.
+**Security**: Never commit real credentials to your repository. Always use environment variables for sensitive information.
 
 ```php
 return [
@@ -264,11 +264,11 @@ return [
 ];
 ```
 
-## 📚 Documentation
+## Documentation
 
 For detailed documentation, visit: [https://qulint.com/docs/](https://qulint.com/docs/)
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
@@ -281,7 +281,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 5. Make your changes
 6. Submit a pull request
 
-## 🧪 Testing
+## Testing
 
 Run the test suite:
 
@@ -295,26 +295,26 @@ Or run specific test files:
 ./vendor/bin/phpunit tests/InstallTest.php
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Based on [laravel-admin](https://github.com/z-song/laravel-admin) by z-song
 - Built with Laravel framework
 - Uses Bootstrap 5 for UI components
 
-## 📞 Support
+## Support
 
 - **Email**: info@qulint.com
 - **GitHub Issues**: [Create an issue](https://github.com/qulint/qulint-admin/issues)
 - **Documentation**: [https://qulint.com/docs/](https://qulint.com/docs/)
 
-## 🔄 Changelog
+## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for a list of changes and version history.
 
 ---
 
-**Made with ❤️ by the Qulint Team**
+**Made with love by the Qulint Team**
