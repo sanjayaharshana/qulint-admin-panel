@@ -29,8 +29,8 @@ jobs:
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress
 
-    # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
-    # Docs: https://getcomposer.org/doc/articles/scripts.md
-
-    # - name: Run test suite
-    #   run: composer run-script test
+    - name: Notify Packagist
+      run: |
+        curl --location 'https://packagist.org/api/update-package?username=${{ secrets.PACKAGIST_USERNAME }}&apiToken=${{ secrets.PACKAGIST_TOKEN }}' \
+        --header 'Content-Type: application/json' \
+        --data '{"repository":{"url":"https://github.com/sanjayaharshana/qulint-admin-panel"}}'
