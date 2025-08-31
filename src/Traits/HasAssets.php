@@ -71,7 +71,7 @@ trait HasAssets
 
         // custom qulint admin stuff
         // generated through sass
-        'vendor/qulint-admin/css/styles.css',
+        'vendor/qulint-admin/qulint-admin/css/styles.css',
     ];
 
     /**
@@ -87,17 +87,17 @@ trait HasAssets
         'vendor/qulint-admin/choicesjs/scripts/choices.min.js',
         'vendor/qulint-admin/sortablejs/Sortable.min.js',
 
-        'vendor/qulint-admin/js/polyfills.js',
-        'vendor/qulint-admin/js/helpers.js',
-        'vendor/qulint-admin/js/qulint-admin.js',
-        'vendor/qulint-admin/js/qulint-admin-actions.js',
-        'vendor/qulint-admin/js/qulint-admin-grid.js',
-        'vendor/qulint-admin/js/qulint-admin-grid-inline-edit.js',
-        'vendor/qulint-admin/js/qulint-admin-form.js',
-        'vendor/qulint-admin/js/qulint-admin-toastr.js',
-        'vendor/qulint-admin/js/qulint-admin-resource.js',
-        'vendor/qulint-admin/js/qulint-admin-tree.js',
-        'vendor/qulint-admin/js/qulint-admin-selectable.js',
+        'vendor/qulint-admin/qulint-admin/js/polyfills.js',
+        'vendor/qulint-admin/qulint-admin/js/helpers.js',
+        'vendor/qulint-admin/qulint-admin/js/qulint-admin.js',
+        'vendor/qulint-admin/qulint-admin/js/qulint-admin-actions.js',
+        'vendor/qulint-admin/qulint-admin/js/qulint-admin-grid.js',
+        'vendor/qulint-admin/qulint-admin/js/qulint-admin-grid-inline-edit.js',
+        'vendor/qulint-admin/qulint-admin/js/qulint-admin-form.js',
+        'vendor/qulint-admin/qulint-admin/js/qulint-admin-toastr.js',
+        'vendor/qulint-admin/qulint-admin/js/qulint-admin-resource.js',
+        'vendor/qulint-admin/qulint-admin/js/qulint-admin-tree.js',
+        'vendor/qulint-admin/qulint-admin/js/qulint-admin-selectable.js',
 
     ];
 
