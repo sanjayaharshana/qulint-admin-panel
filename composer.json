@@ -1,5 +1,5 @@
 {
-    "name": "qulint/qulint-admin",
+    "name": "sanjayaharshana/qulint-admin-panel",
     "description": "Qulint Admin Panel. Open-source Laravel Admin panel. No pro or paid package, free & open. Based on laravel-admin, with special thanks to z-song",
     "type": "library",
     "keywords": ["laravel", "admin", "grid", "form", "qulint-admin","qulint","free"],
