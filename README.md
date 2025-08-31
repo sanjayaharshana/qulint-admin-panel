@@ -3,29 +3,29 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue.svg)](composer.json)
 [![Laravel Version](https://img.shields.io/badge/laravel-%3E%3D10.0-red.svg)](composer.json)
-[![Latest Version](https://img.shields.io/badge/version-3.0.17-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
+[![Latest Version](https://img.shields.io/badge/version-3.0.18-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
 
 A modern, feature-rich Laravel admin panel that's completely free and open-source. Built on top of Laravel framework with a beautiful, responsive interface and extensive functionality. **Qulint Admin Panel** is an upgraded fork of [Open Admin](https://github.com/qulint-admin-org/qulint-admin) that supports Laravel 11 and Laravel 12, since the original Open Admin project has stopped development after Laravel 10.
 
-## What's New in v3.0.17
+## What's New in v3.0.18
 
-### 🎉 Release: Asset Path Fixes & Complete Migration
-- **✅ Fixed Asset Loading**: Renamed assets directory from open-admin to qulint-admin
-- **✅ Complete Asset Migration**: All assets now load from correct qulint-admin paths
-- **✅ Resolved 404 Errors**: Fixed missing CSS/JS files and user avatars
-- **✅ Enhanced User Experience**: Admin panel now loads all assets correctly
+### 🎉 Release: Complete JavaScript File Renaming & Asset Fixes
+- **✅ Fixed JavaScript File Names**: Renamed all JS files from open-admin to qulint-admin
+- **✅ Complete Asset Alignment**: All asset files now match the expected qulint-admin names
+- **✅ Resolved 404 Errors**: Fixed missing JavaScript files that were causing 404 errors
+- **✅ Enhanced Asset Loading**: All CSS, JS, and image files now load correctly
 
-### 🔧 Asset Path Fixes
-- Renamed resources/assets/open-admin to resources/assets/qulint-admin
-- Fixed all asset loading paths to use qulint-admin directory
-- Resolved 404 errors for CSS, JS, and image files
-- Ensured proper asset publishing to public/vendor/qulint-admin
+### 🔧 JavaScript File Fixes
+- Renamed all JavaScript files from open-admin-*.js to qulint-admin-*.js
+- Fixed asset path mismatches between file names and expected paths
+- Resolved 404 errors for all JavaScript files
+- Ensured complete alignment between file names and asset references
 
-### 📦 Complete Migration
+### 📦 Complete Asset Resolution
 - All asset references now use qulint-admin namespace
-- Fixed user avatar loading from correct path
-- Resolved dashboard CSS loading issues
-- Complete migration from open-admin to qulint-admin
+- Fixed JavaScript file loading from correct paths
+- Resolved dashboard CSS and JS loading issues
+- Complete migration from open-admin to qulint-admin file names
 
 ## Features
 
