@@ -59,7 +59,7 @@ A modern, feature-rich Laravel admin panel that's completely free and open-sourc
 ### 1. Install via Composer
 
 ```bash
-composer require qulint/qulint-admin
+composer require sanjayaharshana/qulint-admin-panel
 ```
 
 ### 2. Publish Assets
@@ -308,7 +308,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 - **Email**: info@qulint.com
-- **GitHub Issues**: [Create an issue](https://github.com/qulint/qulint-admin/issues)
+- **GitHub Issues**: [Create an issue](https://github.com/sanjayaharshana/qulint-admin-panel/issues)
 - **Documentation**: [https://qulint.com/docs/](https://qulint.com/docs/)
 
 ## Changelog
