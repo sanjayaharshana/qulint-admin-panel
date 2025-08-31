@@ -1,14 +1,14 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid\Tools;
+namespace Qulint\\Admin\Grid\Tools;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use OpenAdmin\Admin\Admin;
-use OpenAdmin\Admin\Form;
-use OpenAdmin\Admin\Form\Field;
-use OpenAdmin\Admin\Grid;
+use Qulint\\Admin\Admin;
+use Qulint\\Admin\Form;
+use Qulint\\Admin\Form\Field;
+use Qulint\\Admin\Grid;
 
 class QuickCreate implements Renderable
 {

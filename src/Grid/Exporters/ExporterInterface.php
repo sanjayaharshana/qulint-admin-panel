@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid\Exporters;
+namespace Qulint\\Admin\Grid\Exporters;
 
 interface ExporterInterface
 {

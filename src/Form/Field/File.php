@@ -1,11 +1,11 @@
 <?php
 
-namespace OpenAdmin\Admin\Form\Field;
+namespace Qulint\\Admin\Form\Field;
 
 use Illuminate\Support\Arr;
-use OpenAdmin\Admin\Form\Field;
-use OpenAdmin\Admin\Form\Field\Traits\HasMediaPicker;
-use OpenAdmin\Admin\Form\Field\Traits\UploadField;
+use Qulint\\Admin\Form\Field;
+use Qulint\\Admin\Form\Field\Traits\HasMediaPicker;
+use Qulint\\Admin\Form\Field\Traits\UploadField;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 class File extends Field

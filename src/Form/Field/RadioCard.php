@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenAdmin\Admin\Form\Field;
+namespace Qulint\\Admin\Form\Field;
 
-use OpenAdmin\Admin\Admin;
+use Qulint\\Admin\Admin;
 
 class RadioCard extends RadioButton
 {

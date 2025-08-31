@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAdmin\Admin\Form\Field;
+namespace Qulint\\Admin\Form\Field;
 
 class PhoneNumber extends Text
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid\Displayers;
+namespace Qulint\\Admin\Grid\Displayers;
 
 use Illuminate\Database\Eloquent\Model;
-use OpenAdmin\Admin\Grid;
-use OpenAdmin\Admin\Grid\Column;
+use Qulint\\Admin\Grid;
+use Qulint\\Admin\Grid\Column;
 
 abstract class AbstractDisplayer
 {

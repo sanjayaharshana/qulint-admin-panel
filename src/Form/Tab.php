@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenAdmin\Admin\Form;
+namespace Qulint\\Admin\Form;
 
 use Illuminate\Support\Collection;
-use OpenAdmin\Admin\Form;
+use Qulint\\Admin\Form;
 
 class Tab
 {

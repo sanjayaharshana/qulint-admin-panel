@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid\Exporters;
+namespace Qulint\\Admin\Grid\Exporters;
 
-use OpenAdmin\Admin\Grid\Column;
+use Qulint\\Admin\Grid\Column;
 
 class CsvExporter extends AbstractExporter
 {

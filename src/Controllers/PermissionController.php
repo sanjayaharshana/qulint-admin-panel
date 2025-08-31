@@ -1,11 +1,11 @@
 <?php
 
-namespace OpenAdmin\Admin\Controllers;
+namespace Qulint\\Admin\Controllers;
 
 use Illuminate\Support\Str;
-use OpenAdmin\Admin\Form;
-use OpenAdmin\Admin\Grid;
-use OpenAdmin\Admin\Show;
+use Qulint\\Admin\Form;
+use Qulint\\Admin\Grid;
+use Qulint\\Admin\Show;
 
 class PermissionController extends AdminController
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAdmin\Admin\Traits;
+namespace Qulint\\Admin\Traits;
 
 trait HasAssets
 {

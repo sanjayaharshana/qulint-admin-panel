@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAdmin\Admin\Controllers;
+namespace Qulint\\Admin\Controllers;
 
 /**
  * Trait ModelForm.

@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid\Actions;
+namespace Qulint\\Admin\Grid\Actions;
 
-use OpenAdmin\Admin\Actions\RowAction;
+use Qulint\\Admin\Actions\RowAction;
 
 class Show extends RowAction
 {

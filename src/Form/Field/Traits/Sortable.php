@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenAdmin\Admin\Form\Field\Traits;
+namespace Qulint\\Admin\Form\Field\Traits;
 
-use OpenAdmin\Admin\Admin;
+use Qulint\\Admin\Admin;
 
 trait Sortable
 {

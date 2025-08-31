@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenAdmin\Admin\Form\Concerns;
+namespace Qulint\\Admin\Form\Concerns;
 
-use OpenAdmin\Admin\Form\Field;
+use Qulint\\Admin\Form\Field;
 
 trait HandleCascadeFields
 {

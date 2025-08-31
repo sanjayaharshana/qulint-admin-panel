@@ -1,10 +1,10 @@
 <?php
 
-namespace OpenAdmin\Admin\Controllers;
+namespace Qulint\\Admin\Controllers;
 
 use Illuminate\Support\Arr;
-use OpenAdmin\Admin\Auth\Database\OperationLog;
-use OpenAdmin\Admin\Grid;
+use Qulint\\Admin\Auth\Database\OperationLog;
+use Qulint\\Admin\Grid;
 
 class LogController extends AdminController
 {

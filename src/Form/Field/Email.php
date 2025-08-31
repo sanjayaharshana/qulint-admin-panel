@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenAdmin\Admin\Form\Field;
+namespace Qulint\\Admin\Form\Field;
 
-use OpenAdmin\Admin\Form;
+use Qulint\\Admin\Form;
 
 class Email extends Text
 {

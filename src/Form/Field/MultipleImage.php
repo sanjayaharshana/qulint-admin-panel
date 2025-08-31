@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenAdmin\Admin\Form\Field;
+namespace Qulint\\Admin\Form\Field;
 
-use OpenAdmin\Admin\Form\Field\Traits\ImageField;
+use Qulint\\Admin\Form\Field\Traits\ImageField;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 class MultipleImage extends MultipleFile

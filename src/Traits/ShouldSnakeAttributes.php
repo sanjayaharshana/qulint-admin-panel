@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenAdmin\Admin\Traits;
+namespace Qulint\\Admin\Traits;
 
-use OpenAdmin\Admin\Grid\Model as GridModel;
+use Qulint\\Admin\Grid\Model as GridModel;
 
 trait ShouldSnakeAttributes
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid\Concerns;
+namespace Qulint\\Admin\Grid\Concerns;
 
-use OpenAdmin\Admin\Admin;
+use Qulint\\Admin\Admin;
 
 trait CanDoubleClick
 {

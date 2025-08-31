@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid\Filter\Presenter;
+namespace Qulint\\Admin\Grid\Filter\Presenter;
 
-use OpenAdmin\Admin\Grid\Filter\AbstractFilter;
+use Qulint\\Admin\Grid\Filter\AbstractFilter;
 
 abstract class Presenter
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid\Column;
+namespace Qulint\\Admin\Grid\Column;
 
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
-use OpenAdmin\Admin\Grid\Column;
-use OpenAdmin\Admin\Grid\Model;
+use Qulint\\Admin\Grid\Column;
+use Qulint\\Admin\Grid\Model;
 
 trait HasHeader
 {

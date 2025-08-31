@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAdmin\Admin\Show;
+namespace Qulint\\Admin\Show;
 
 class Divider extends Field
 {

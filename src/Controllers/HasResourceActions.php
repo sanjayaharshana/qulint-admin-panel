@@ -1,13 +1,13 @@
 <?php
 
-namespace OpenAdmin\Admin\Controllers;
+namespace Qulint\\Admin\Controllers;
 
 trait HasResourceActions
 {
     /**
      * Returns the form with possible callback hooks.
      *
-     * @return \OpenAdmin\Admin\Form;
+     * @return \Qulint\\Admin\Form;
      */
     public function getForm()
     {

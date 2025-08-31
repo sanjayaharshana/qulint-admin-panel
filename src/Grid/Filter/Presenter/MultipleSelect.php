@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid\Filter\Presenter;
+namespace Qulint\\Admin\Grid\Filter\Presenter;
 
-use OpenAdmin\Admin\Facades\Admin;
+use Qulint\\Admin\Facades\Admin;
 
 class MultipleSelect extends Select
 {

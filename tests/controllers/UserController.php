@@ -2,9 +2,9 @@
 
 namespace Tests\Controllers;
 
-use OpenAdmin\Admin\Controllers\AdminController;
-use OpenAdmin\Admin\Form;
-use OpenAdmin\Admin\Grid;
+use Qulint\\Admin\Controllers\AdminController;
+use Qulint\\Admin\Form;
+use Qulint\\Admin\Grid;
 use Tests\Models\Tag;
 use Tests\Models\User;
 

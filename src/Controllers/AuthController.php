@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAdmin\Admin\Controllers;
+namespace Qulint\\Admin\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
@@ -9,9 +9,9 @@ use Illuminate\Support\Facades\Lang;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Validator;
-use OpenAdmin\Admin\Facades\Admin;
-use OpenAdmin\Admin\Form;
-use OpenAdmin\Admin\Layout\Content;
+use Qulint\\Admin\Facades\Admin;
+use Qulint\\Admin\Form;
+use Qulint\\Admin\Layout\Content;
 
 class AuthController extends Controller
 {

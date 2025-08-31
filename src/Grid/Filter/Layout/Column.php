@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid\Filter\Layout;
+namespace Qulint\\Admin\Grid\Filter\Layout;
 
 use Illuminate\Support\Collection;
-use OpenAdmin\Admin\Grid\Filter\AbstractFilter;
+use Qulint\\Admin\Grid\Filter\AbstractFilter;
 
 class Column
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenAdmin\Admin\Form\Field\Traits;
+namespace Qulint\\Admin\Form\Field\Traits;
 
-use OpenAdmin\Admin\Admin;
-use OpenAdmin\Admin\Grid\Selectable;
+use Qulint\\Admin\Admin;
+use Qulint\\Admin\Grid\Selectable;
 
 trait BelongsToRelation
 {
@@ -37,7 +37,7 @@ trait BelongsToRelation
     {
         if (!class_exists($selectable) || !is_subclass_of($selectable, Selectable::class)) {
             throw new \InvalidArgumentException(
-                "[Class [{$selectable}] must be a sub class of OpenAdmin\Admin\Grid\Selectable"
+                "[Class [{$selectable}] must be a sub class of Qulint\\Admin\Grid\Selectable"
             );
         }
 
@@ -264,7 +264,7 @@ JS;
     }
 
     /**
-     * @return \OpenAdmin\Admin\Grid
+     * @return \Qulint\\Admin\Grid
      */
     protected function makeGrid()
     {

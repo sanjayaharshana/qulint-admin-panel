@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenAdmin\Admin\Layout;
+namespace Qulint\\Admin\Layout;
 
 use Illuminate\Contracts\Support\Renderable;
-use OpenAdmin\Admin\Grid;
+use Qulint\\Admin\Grid;
 
 class Column implements Buildable
 {

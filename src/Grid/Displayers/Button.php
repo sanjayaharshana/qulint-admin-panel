@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid\Displayers;
+namespace Qulint\\Admin\Grid\Displayers;
 
 class Button extends AbstractDisplayer
 {

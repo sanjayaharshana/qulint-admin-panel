@@ -4,7 +4,7 @@
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue.svg)](composer.json)
 [![Laravel Version](https://img.shields.io/badge/laravel-%3E%3D10.0-red.svg)](composer.json)
 
-A modern, feature-rich Laravel admin panel that's completely free and open-source. Built on top of Laravel framework with a beautiful, responsive interface and extensive functionality.
+A modern, feature-rich Laravel admin panel that's completely free and open-source. Built on top of Laravel framework with a beautiful, responsive interface and extensive functionality. **Qulint Admin Panel** is an upgraded fork of [Open Admin](https://github.com/open-admin-org/open-admin) that supports Laravel 11 and Laravel 12, since the original Open Admin project has stopped development after Laravel 10.
 
 ## Features
 
@@ -301,7 +301,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Based on [laravel-admin](https://github.com/z-song/laravel-admin) by z-song
+- Based on [Open Admin](https://github.com/open-admin-org/open-admin) by the Open Admin team
+- Originally forked from [laravel-admin](https://github.com/z-song/laravel-admin) by z-song
 - Built with Laravel framework
 - Uses Bootstrap 5 for UI components
 

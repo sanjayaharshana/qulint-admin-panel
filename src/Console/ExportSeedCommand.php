@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAdmin\Admin\Console;
+namespace Qulint\\Admin\Console;
 
 use Illuminate\Console\Command;
 

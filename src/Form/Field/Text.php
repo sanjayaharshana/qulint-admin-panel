@@ -1,10 +1,10 @@
 <?php
 
-namespace OpenAdmin\Admin\Form\Field;
+namespace Qulint\\Admin\Form\Field;
 
-use OpenAdmin\Admin\Form\Field;
-use OpenAdmin\Admin\Form\Field\Traits\HasValuePicker;
-use OpenAdmin\Admin\Form\Field\Traits\PlainInput;
+use Qulint\\Admin\Form\Field;
+use Qulint\\Admin\Form\Field\Traits\HasValuePicker;
+use Qulint\\Admin\Form\Field\Traits\PlainInput;
 
 class Text extends Field
 {

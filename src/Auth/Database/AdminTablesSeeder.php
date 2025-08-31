@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAdmin\Admin\Auth\Database;
+namespace Qulint\\Admin\Auth\Database;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;

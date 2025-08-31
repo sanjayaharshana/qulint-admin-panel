@@ -66,9 +66,9 @@ class TestCase extends BaseTestCase
 
         require __DIR__.'/seeds/factory.php';
 
-//        \OpenAdmin\Admin\Admin::$css = [];
-//        \OpenAdmin\Admin\Admin::$js = [];
-//        \OpenAdmin\Admin\Admin::$script = [];
+//        \Qulint\\Admin\Admin::$css = [];
+//        \Qulint\\Admin\Admin::$js = [];
+//        \Qulint\\Admin\Admin::$script = [];
     }
 
     protected function tearDown(): void

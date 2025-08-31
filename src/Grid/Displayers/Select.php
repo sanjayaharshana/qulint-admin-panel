@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid\Displayers;
+namespace Qulint\\Admin\Grid\Displayers;
 
 use Illuminate\Support\Arr;
-use OpenAdmin\Admin\Admin;
+use Qulint\\Admin\Admin;
 
 class Select extends AbstractDisplayer
 {

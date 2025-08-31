@@ -1,10 +1,10 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid\Displayers;
+namespace Qulint\\Admin\Grid\Displayers;
 
-use OpenAdmin\Admin\Admin;
-use OpenAdmin\Admin\Form\Field\Traits\BelongsToRelation;
-use OpenAdmin\Admin\Grid\Selectable;
+use Qulint\\Admin\Admin;
+use Qulint\\Admin\Form\Field\Traits\BelongsToRelation;
+use Qulint\\Admin\Grid\Selectable;
 
 class BelongsTo extends AbstractDisplayer
 {
@@ -52,7 +52,7 @@ class BelongsTo extends AbstractDisplayer
     {
         if (!class_exists($selectable) || !is_subclass_of($selectable, Selectable::class)) {
             throw new \InvalidArgumentException(
-                "[Class [{$selectable}] must be a sub class of OpenAdmin\Admin\Grid\Selectable"
+                "[Class [{$selectable}] must be a sub class of Qulint\\Admin\Grid\Selectable"
             );
         }
 

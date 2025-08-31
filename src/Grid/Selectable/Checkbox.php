@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid\Selectable;
+namespace Qulint\\Admin\Grid\Selectable;
 
-use OpenAdmin\Admin\Grid\Displayers\AbstractDisplayer;
+use Qulint\\Admin\Grid\Displayers\AbstractDisplayer;
 
 class Checkbox extends AbstractDisplayer
 {

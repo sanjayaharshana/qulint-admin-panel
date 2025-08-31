@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenAdmin\Admin\Controllers;
+namespace Qulint\\Admin\Controllers;
 
 use Illuminate\Support\Arr;
-use OpenAdmin\Admin\Admin;
+use Qulint\\Admin\Admin;
 
 class Dashboard
 {

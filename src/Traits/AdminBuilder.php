@@ -1,10 +1,10 @@
 <?php
 
-namespace OpenAdmin\Admin\Traits;
+namespace Qulint\\Admin\Traits;
 
-use OpenAdmin\Admin\Form;
-use OpenAdmin\Admin\Grid;
-use OpenAdmin\Admin\Tree;
+use Qulint\\Admin\Form;
+use Qulint\\Admin\Grid;
+use Qulint\\Admin\Tree;
 
 /**
  * @deprecated

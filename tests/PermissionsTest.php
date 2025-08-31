@@ -1,8 +1,8 @@
 <?php
 
-use OpenAdmin\Admin\Auth\Database\Administrator;
-use OpenAdmin\Admin\Auth\Database\Permission;
-use OpenAdmin\Admin\Auth\Database\Role;
+use Qulint\\Admin\Auth\Database\Administrator;
+use Qulint\\Admin\Auth\Database\Permission;
+use Qulint\\Admin\Auth\Database\Role;
 
 class PermissionsTest extends TestCase
 {

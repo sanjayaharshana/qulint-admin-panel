@@ -1,10 +1,10 @@
 <?php
 
-namespace OpenAdmin\Admin\Controllers;
+namespace Qulint\\Admin\Controllers;
 
 use Illuminate\Routing\Controller;
-use OpenAdmin\Admin\Layout\Content;
-use OpenAdmin\Admin\Traits\HasCustomHooks;
+use Qulint\\Admin\Layout\Content;
+use Qulint\\Admin\Traits\HasCustomHooks;
 
 class AdminController extends Controller
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenAdmin\Admin\Middleware;
+namespace Qulint\\Admin\Middleware;
 
 use Closure;
-use OpenAdmin\Admin\Facades\Admin;
+use Qulint\\Admin\Facades\Admin;
 
 class Authenticate
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid\Concerns;
+namespace Qulint\\Admin\Grid\Concerns;
 
 use Closure;
-use OpenAdmin\Admin\Grid;
+use Qulint\\Admin\Grid;
 
 trait HasActions
 {

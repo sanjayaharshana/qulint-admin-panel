@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid;
+namespace Qulint\\Admin\Grid;
 
 use Illuminate\Contracts\Support\Renderable;
-use OpenAdmin\Admin\Grid;
+use Qulint\\Admin\Grid;
 
 /**
  * @mixin Grid

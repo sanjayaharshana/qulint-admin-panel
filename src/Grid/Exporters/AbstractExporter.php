@@ -1,13 +1,13 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid\Exporters;
+namespace Qulint\\Admin\Grid\Exporters;
 
-use OpenAdmin\Admin\Grid;
+use Qulint\\Admin\Grid;
 
 abstract class AbstractExporter implements ExporterInterface
 {
     /**
-     * @var \OpenAdmin\Admin\Grid
+     * @var \Qulint\\Admin\Grid
      */
     protected $grid;
 

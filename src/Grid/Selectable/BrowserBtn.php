@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid\Selectable;
+namespace Qulint\\Admin\Grid\Selectable;
 
 use Illuminate\Contracts\Support\Renderable;
 

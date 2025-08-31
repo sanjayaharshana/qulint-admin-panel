@@ -1,10 +1,10 @@
 <?php
 
-namespace OpenAdmin\Admin\Form\Field\Traits;
+namespace Qulint\\Admin\Form\Field\Traits;
 
-use OpenAdmin\Admin\Admin;
-use OpenAdmin\Admin\Form\Field;
-use OpenAdmin\Admin\Form\Field\ValuePicker;
+use Qulint\\Admin\Admin;
+use Qulint\\Admin\Form\Field;
+use Qulint\\Admin\Form\Field\ValuePicker;
 
 /**
  * @mixin Field

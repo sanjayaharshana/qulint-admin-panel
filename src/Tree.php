@@ -1,11 +1,11 @@
 <?php
 
-namespace OpenAdmin\Admin;
+namespace Qulint\\Admin;
 
 use Closure;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
-use OpenAdmin\Admin\Tree\Tools;
+use Qulint\\Admin\Tree\Tools;
 
 class Tree implements Renderable
 {

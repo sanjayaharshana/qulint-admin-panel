@@ -1,10 +1,10 @@
 <?php
 
-namespace OpenAdmin\Admin\Actions;
+namespace Qulint\\Admin\Actions;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Http\Request;
-use OpenAdmin\Admin\Grid;
+use Qulint\\Admin\Grid;
 
 /**
  * Class GridAction.

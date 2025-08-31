@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenAdmin\Admin\Form\Field\Traits;
+namespace Qulint\\Admin\Form\Field\Traits;
 
-use OpenAdmin\Admin\Admin;
-use OpenAdmin\Admin\Form\Field;
+use Qulint\\Admin\Admin;
+use Qulint\\Admin\Form\Field;
 
 /**
  * @mixin Field
@@ -55,7 +55,7 @@ trait HasMediaPicker
      */
     protected function renderMediaPicker()
     {
-        if (!class_exists("OpenAdmin\Admin\Media\MediaManager")) {
+        if (!class_exists("Qulint\\Admin\Media\MediaManager")) {
             throw new \Exception(
                 '[Media Manager extention not installed yet.<br> Install using: <b>composer require open-admin-ext/media-manager</b><br><br>'
             );

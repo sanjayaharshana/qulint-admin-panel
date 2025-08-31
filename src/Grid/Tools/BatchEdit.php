@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenAdmin\Admin\Grid\Tools;
+namespace Qulint\\Admin\Grid\Tools;
 
 use Illuminate\Support\Facades\URL;
-use OpenAdmin\Admin\Actions\BatchAction;
+use Qulint\\Admin\Actions\BatchAction;
 
 class BatchEdit extends BatchAction
 {
