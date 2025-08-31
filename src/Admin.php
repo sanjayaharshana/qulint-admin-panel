@@ -25,7 +25,7 @@ class Admin
      *
      * @var string
      */
-    public const VERSION = '3.0.12';
+    public const VERSION = '3.0.13';
 
     /**
      * @var Navbar
@@ -418,7 +418,7 @@ class Admin
 
     public static function asset($asset)
     {
-        return url('/vendor/open-admin/'.$asset);
+        return url('/vendor/qulint-admin/'.$asset);
     }
 
     public static function js_trans()

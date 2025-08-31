@@ -42,7 +42,7 @@ trait HasAssets
     /**
      * @var string
      */
-    public static $manifest = 'vendor/open-admin/minify-manifest.json';
+    public static $manifest = 'vendor/qulint-admin/minify-manifest.json';
 
     /**
      * @var array
@@ -53,8 +53,8 @@ trait HasAssets
      * @var array
      */
     public static $min = [
-        'js'  => 'vendor/open-admin/open-admin.min.js',
-        'css' => 'vendor/open-admin/open-admin.min.css',
+        'js'  => 'vendor/qulint-admin/qulint-admin.min.js',
+        'css' => 'vendor/qulint-admin/qulint-admin.min.css',
     ];
 
     /**
@@ -62,42 +62,42 @@ trait HasAssets
      */
     public static $baseCss = [
         // first libraries
-        'vendor/open-admin/nprogress/nprogress.css',
-        'vendor/open-admin/sweetalert2/sweetalert2.min.css',
-        'vendor/open-admin/toastify-js/toastify.css',
-        'vendor/open-admin/flatpickr/flatpicker-custom.css',
-        'vendor/open-admin/choicesjs/styles/choices.min.css',
-        'vendor/open-admin/sortablejs/nestable.css',
+        'vendor/qulint-admin/nprogress/nprogress.css',
+        'vendor/qulint-admin/sweetalert2/sweetalert2.min.css',
+        'vendor/qulint-admin/toastify-js/toastify.css',
+        'vendor/qulint-admin/flatpickr/flatpicker-custom.css',
+        'vendor/qulint-admin/choicesjs/styles/choices.min.css',
+        'vendor/qulint-admin/sortablejs/nestable.css',
 
-        // custom open admin stuff
+        // custom qulint admin stuff
         // generated through sass
-        'vendor/open-admin/open-admin/css/styles.css',
+        'vendor/qulint-admin/qulint-admin/css/styles.css',
     ];
 
     /**
      * @var array
      */
     public static $baseJs = [
-        'vendor/open-admin/bootstrap5/bootstrap.bundle.min.js',
-        'vendor/open-admin/nprogress/nprogress.js',
-        'vendor/open-admin/axios/axios.min.js',
-        'vendor/open-admin/sweetalert2/sweetalert2.min.js',
-        'vendor/open-admin/toastify-js/toastify.js',
-        'vendor/open-admin/flatpickr/flatpickr.min.js',
-        'vendor/open-admin/choicesjs/scripts/choices.min.js',
-        'vendor/open-admin/sortablejs/Sortable.min.js',
+        'vendor/qulint-admin/bootstrap5/bootstrap.bundle.min.js',
+        'vendor/qulint-admin/nprogress/nprogress.js',
+        'vendor/qulint-admin/axios/axios.min.js',
+        'vendor/qulint-admin/sweetalert2/sweetalert2.min.js',
+        'vendor/qulint-admin/toastify-js/toastify.js',
+        'vendor/qulint-admin/flatpickr/flatpickr.min.js',
+        'vendor/qulint-admin/choicesjs/scripts/choices.min.js',
+        'vendor/qulint-admin/sortablejs/Sortable.min.js',
 
-        'vendor/open-admin/open-admin/js/polyfills.js',
-        'vendor/open-admin/open-admin/js/helpers.js',
-        'vendor/open-admin/open-admin/js/open-admin.js',
-        'vendor/open-admin/open-admin/js/open-admin-actions.js',
-        'vendor/open-admin/open-admin/js/open-admin-grid.js',
-        'vendor/open-admin/open-admin/js/open-admin-grid-inline-edit.js',
-        'vendor/open-admin/open-admin/js/open-admin-form.js',
-        'vendor/open-admin/open-admin/js/open-admin-toastr.js',
-        'vendor/open-admin/open-admin/js/open-admin-resource.js',
-        'vendor/open-admin/open-admin/js/open-admin-tree.js',
-        'vendor/open-admin/open-admin/js/open-admin-selectable.js',
+        'vendor/qulint-admin/qulint-admin/js/polyfills.js',
+        'vendor/qulint-admin/qulint-admin/js/helpers.js',
+        'vendor/qulint-admin/qulint-admin/js/qulint-admin.js',
+        'vendor/qulint-admin/qulint-admin/js/qulint-admin-actions.js',
+        'vendor/qulint-admin/qulint-admin/js/qulint-admin-grid.js',
+        'vendor/qulint-admin/qulint-admin/js/qulint-admin-grid-inline-edit.js',
+        'vendor/qulint-admin/qulint-admin/js/qulint-admin-form.js',
+        'vendor/qulint-admin/qulint-admin/js/qulint-admin-toastr.js',
+        'vendor/qulint-admin/qulint-admin/js/qulint-admin-resource.js',
+        'vendor/qulint-admin/qulint-admin/js/qulint-admin-tree.js',
+        'vendor/qulint-admin/qulint-admin/js/qulint-admin-selectable.js',
 
     ];
 
