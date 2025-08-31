@@ -8,15 +8,14 @@ This guide helps resolve dependency conflicts when installing Qulint Admin Panel
 
 **Problem**: Conflicts between `doctrine/dbal`, `carbonphp/carbon-doctrine-types`, and `symfony/http-foundation`
 
-**Solution**: Use compatible versions
+**Solution**: Doctrine DBAL is now optional and not required by default
 
 ```bash
-# Remove conflicting packages first
-composer remove doctrine/dbal carbonphp/carbon-doctrine-types
+# Doctrine DBAL is now optional - only install if needed
+composer require doctrine/dbal:^3.0 --optional
 
-# Install compatible versions
+# Or install manually if you need advanced database operations
 composer require doctrine/dbal:^3.0
-composer require carbonphp/carbon-doctrine-types:^4.0
 ```
 
 ### 2. PHP Version Conflicts
@@ -59,11 +58,11 @@ composer clear-cache
 ### Step 2: Install with Conflict Resolution
 
 ```bash
-# Install with specific versions to avoid conflicts
-composer require sanjayaharshana/qulint-admin-panel:^3.0 \
-    --with doctrine/dbal:^3.0 \
-    --with carbonphp/carbon-doctrine-types:^4.0 \
-    --with symfony/http-foundation:^7.0
+# Install Qulint Admin Panel (Doctrine DBAL is now optional)
+composer require sanjayaharshana/qulint-admin-panel:^3.0
+
+# If you need Doctrine DBAL, install it separately
+composer require doctrine/dbal:^3.0
 ```
 
 ### Step 3: Alternative Installation Method
@@ -74,10 +73,7 @@ If the above doesn't work, try this approach:
 # Install Laravel framework first
 composer require laravel/framework:^12.0
 
-# Install Doctrine DBAL with specific version
-composer require doctrine/dbal:^3.0
-
-# Install Qulint Admin Panel
+# Install Qulint Admin Panel (Doctrine DBAL is optional)
 composer require sanjayaharshana/qulint-admin-panel:^3.0
 ```
 
@@ -86,9 +82,9 @@ composer require sanjayaharshana/qulint-admin-panel:^3.0
 | Package | Laravel 10 | Laravel 11 | Laravel 12 | Notes |
 |---------|------------|------------|------------|-------|
 | PHP | ^8.1 | ^8.1 | ^8.1 | Required |
-| doctrine/dbal | ^3.0 | ^3.0 | ^3.0\|^4.0 | Database abstraction |
+| doctrine/dbal | Optional | Optional | Optional | Database abstraction (optional) |
 | symfony/http-foundation | ^6.0 | ^7.0 | ^7.0 | HTTP handling |
-| carbonphp/carbon-doctrine-types | ^3.0 | ^4.0 | ^4.0 | Carbon integration |
+| carbonphp/carbon-doctrine-types | Optional | Optional | Optional | Carbon integration (optional) |
 | intervention/image | ^2.7 | ^2.7\|^3.0 | ^2.7\|^3.0 | Image processing |
 
 ## Troubleshooting
@@ -130,14 +126,11 @@ composer update symfony/http-foundation symfony/dom-crawler --with-dependencies
 {
     "require": {
         "php": "^8.1",
-        "laravel/framework": "^10.0|^11.0|^12.0",
-        "doctrine/dbal": "^3.0|^4.0",
-        "symfony/http-foundation": "^6.0|^7.0",
-        "carbonphp/carbon-doctrine-types": "^4.0"
+        "laravel/framework": "^10.0|^11.0|^12.0"
     },
-    "conflict": {
-        "doctrine/dbal": "<3.0",
-        "carbonphp/carbon-doctrine-types": "<4.0"
+    "suggest": {
+        "doctrine/dbal": "Optional: For advanced database operations",
+        "carbonphp/carbon-doctrine-types": "Optional: For Carbon integration"
     }
 }
 ```
@@ -169,6 +162,7 @@ If you continue to experience issues:
 
 | Qulint Admin Panel | Laravel | PHP | Doctrine DBAL | Status |
 |-------------------|---------|-----|----------------|--------|
-| 3.0.0 | 10.x, 11.x, 12.x | ^8.1 | ^3.0\|^4.0 | ✅ Supported |
-| 2.0.0 | 7.x, 8.x, 9.x, 10.x | ^7.3 | 2.*\|3.* | ⚠️ Legacy |
+| 3.0.2 | 10.x, 11.x, 12.x | ^8.1 | Optional | ✅ Supported |
+| 3.0.0 | 10.x, 11.x, 12.x | ^8.1 | ^3.0\|^4.0 | ⚠️ Legacy |
+| 2.0.0 | 7.x, 8.x, 9.x, 10.x | ^7.3 | 2.*\|3.* | ❌ Deprecated |
 | 1.0.0 | 7.x, 8.x, 9.x | ^7.3 | 2.*\|3.* | ❌ Deprecated |
