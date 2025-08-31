@@ -3,29 +3,29 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue.svg)](composer.json)
 [![Laravel Version](https://img.shields.io/badge/laravel-%3E%3D10.0-red.svg)](composer.json)
-[![Latest Version](https://img.shields.io/badge/version-3.0.14-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
+[![Latest Version](https://img.shields.io/badge/version-3.0.15-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
 
 A modern, feature-rich Laravel admin panel that's completely free and open-source. Built on top of Laravel framework with a beautiful, responsive interface and extensive functionality. **Qulint Admin Panel** is an upgraded fork of [Open Admin](https://github.com/qulint-admin-org/qulint-admin) that supports Laravel 11 and Laravel 12, since the original Open Admin project has stopped development after Laravel 10.
 
-## What's New in v3.0.14
+## What's New in v3.0.15
 
-### 🎉 Major Release: Complete Namespace Migration & Stub File Fixes
-- **✅ Complete Namespace Migration**: Fixed all stub files to use `Qulint\Admin` namespace
-- **✅ Resolved "Class not found" errors**: Generated controllers now work correctly
-- **✅ Fixed Asset Paths**: Updated all asset references from `qulint-admin` to `qulint-admin`
-- **✅ Laravel 12 Support**: Full compatibility with latest Laravel versions
-- **✅ Improved Installation**: `admin:install` command now generates working controllers
+### 🎉 Release: Documentation Updates & URL Corrections
+- **✅ Fixed Open Admin Reference**: Updated URL to correct qulint-admin-org repository
+- **✅ Improved Documentation**: Enhanced README with better clarity
+- **✅ Asset Path Consistency**: Corrected asset path descriptions
+- **✅ Better User Experience**: Cleaner documentation structure
 
-### 🔧 Critical Bug Fixes
-- Fixed AuthController generation to extend correct base class
-- Updated HomeController with correct namespace and asset paths
-- Fixed all generated controllers to use proper Qulint namespace
-- Resolved asset loading issues in generated code
+### 🔧 Documentation Improvements
+- Fixed Open Admin reference URL consistency
+- Updated asset path descriptions for clarity
+- Improved documentation structure and readability
+- Enhanced installation instructions
 
-### 📦 Asset Path Updates
-- CSS/JS files now load from `/vendor/qulint-admin/`
-- User avatars display correctly
-- Admin panel styling works properly
+### 📦 Minor Updates
+- Better documentation formatting
+- Consistent URL references throughout
+- Improved code examples
+- Enhanced user guidance
 
 ## Features
 

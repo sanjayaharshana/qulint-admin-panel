@@ -5,7 +5,7 @@
     "keywords": ["laravel", "admin", "grid", "form", "qulint-admin","qulint","free"],
     "homepage": "https://github.com/sanjayaharshana/qulint-admin-panel",
     "license": "MIT",
-    "version": "3.0.14",
+    "version": "3.0.15",
     "minimum-stability": "stable",
     "prefer-stable": true,
     "authors": [
