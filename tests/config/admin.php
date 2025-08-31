@@ -48,6 +48,8 @@ return [
      * Open-admin auth setting.
      */
     'auth' => [
+        'controller' => Qulint\Admin\Controllers\AuthController::class,
+        
         'guards' => [
             'admin' => [
                 'driver'   => 'session',
