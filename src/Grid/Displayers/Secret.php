@@ -1,8 +1,8 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Displayers;
+namespace Qulint\Admin\Grid\Displayers;
 
-use Qulint\\Admin\Facades\Admin;
+use Qulint\Admin\Facades\Admin;
 
 class Secret extends AbstractDisplayer
 {

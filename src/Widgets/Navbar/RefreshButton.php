@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Widgets\Navbar;
+namespace Qulint\Admin\Widgets\Navbar;
 
 use Illuminate\Contracts\Support\Renderable;
-use Qulint\\Admin\Admin;
+use Qulint\Admin\Admin;
 
 class RefreshButton implements Renderable
 {

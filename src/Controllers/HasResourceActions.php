@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Controllers;
+namespace Qulint\Admin\Controllers;
 
 trait HasResourceActions
 {

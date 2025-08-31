@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Show;
+namespace Qulint\Admin\Show;
 
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;

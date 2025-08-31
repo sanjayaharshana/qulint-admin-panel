@@ -1,13 +1,13 @@
 <?php
 
-namespace Qulint\\Admin\Form;
+namespace Qulint\Admin\Form;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Qulint\\Admin\Admin;
-use Qulint\\Admin\Form;
-use Qulint\\Admin\Widgets\Form as WidgetForm;
+use Qulint\Admin\Admin;
+use Qulint\Admin\Form;
+use Qulint\Admin\Widgets\Form as WidgetForm;
 
 /**
  * Class NestedForm.

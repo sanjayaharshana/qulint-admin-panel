@@ -1,10 +1,10 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Concerns;
+namespace Qulint\Admin\Grid\Concerns;
 
 use Closure;
 use Illuminate\Support\Collection;
-use Qulint\\Admin\Grid\Filter;
+use Qulint\Admin\Grid\Filter;
 
 trait HasFilter
 {

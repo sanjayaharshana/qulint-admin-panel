@@ -1,10 +1,10 @@
 <?php
 
-namespace Qulint\\Admin\Actions;
+namespace Qulint\Admin\Actions;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
-use Qulint\\Admin\Facades\Admin;
+use Qulint\Admin\Facades\Admin;
 
 /**
  * @mixin Action

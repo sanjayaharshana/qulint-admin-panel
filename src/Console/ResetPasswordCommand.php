@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Console;
+namespace Qulint\Admin\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Hash;

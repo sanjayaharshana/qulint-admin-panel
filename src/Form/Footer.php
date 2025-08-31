@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Form;
+namespace Qulint\Admin\Form;
 
 use Illuminate\Contracts\Support\Renderable;
 

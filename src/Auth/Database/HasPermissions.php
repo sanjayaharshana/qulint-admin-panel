@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Auth\Database;
+namespace Qulint\Admin\Auth\Database;
 
 use Illuminate\Support\Collection;
 

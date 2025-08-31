@@ -1,17 +1,17 @@
 <?php
 
-namespace Qulint\\Admin\Form\Field;
+namespace Qulint\Admin\Form\Field;
 
 use Illuminate\Database\Eloquent\Relations\HasMany as Relation;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Qulint\\Admin\Admin;
-use Qulint\\Admin\Form;
-use Qulint\\Admin\Form\Field;
-use Qulint\\Admin\Form\Field\Traits\Sortable;
-use Qulint\\Admin\Form\NestedForm;
-use Qulint\\Admin\Widgets\Form as WidgetForm;
+use Qulint\Admin\Admin;
+use Qulint\Admin\Form;
+use Qulint\Admin\Form\Field;
+use Qulint\Admin\Form\Field\Traits\Sortable;
+use Qulint\Admin\Form\NestedForm;
+use Qulint\Admin\Widgets\Form as WidgetForm;
 
 /**
  * Class HasMany.

@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Form;
+namespace Qulint\Admin\Form;
 
 use Illuminate\Contracts\Support\Renderable;
-use Qulint\\Admin\Form;
+use Qulint\Admin\Form;
 
 class Row implements Renderable
 {

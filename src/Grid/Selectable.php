@@ -1,12 +1,12 @@
 <?php
 
-namespace Qulint\\Admin\Grid;
+namespace Qulint\Admin\Grid;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
-use Qulint\\Admin\Grid;
-use Qulint\\Admin\Grid\Selectable\Checkbox;
-use Qulint\\Admin\Grid\Selectable\Radio;
+use Qulint\Admin\Grid;
+use Qulint\Admin\Grid\Selectable\Checkbox;
+use Qulint\Admin\Grid\Selectable\Radio;
 
 /**
  * @mixin Grid

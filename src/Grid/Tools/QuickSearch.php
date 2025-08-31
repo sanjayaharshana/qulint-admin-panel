@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Tools;
+namespace Qulint\Admin\Grid\Tools;
 
 use Illuminate\Support\Arr;
-use Qulint\\Admin\Grid\Concerns\HasQuickSearch;
+use Qulint\Admin\Grid\Concerns\HasQuickSearch;
 
 class QuickSearch extends AbstractTool
 {

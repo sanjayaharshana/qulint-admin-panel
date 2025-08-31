@@ -1,10 +1,10 @@
 <?php
 
-namespace Qulint\\Admin\Form\Field;
+namespace Qulint\Admin\Form\Field;
 
 use Illuminate\Support\Arr;
-use Qulint\\Admin\Form\NestedForm;
-use Qulint\\Admin\Widgets\Form as WidgetForm;
+use Qulint\Admin\Form\NestedForm;
+use Qulint\Admin\Widgets\Form as WidgetForm;
 
 class Table extends HasMany
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Qulint\\Admin\Actions;
+namespace Qulint\Admin\Actions;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
-use Qulint\\Admin\Admin;
-use Qulint\\Admin\Form\Field;
+use Qulint\Admin\Admin;
+use Qulint\Admin\Form\Field;
 
 /**
  * @method $this                success($title, $text = '', $options = [])

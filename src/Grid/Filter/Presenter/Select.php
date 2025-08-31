@@ -1,11 +1,11 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Filter\Presenter;
+namespace Qulint\Admin\Grid\Filter\Presenter;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
-use Qulint\\Admin\Facades\Admin;
+use Qulint\Admin\Facades\Admin;
 
 class Select extends Presenter
 {

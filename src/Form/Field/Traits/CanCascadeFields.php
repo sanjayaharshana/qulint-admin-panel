@@ -1,10 +1,10 @@
 <?php
 
-namespace Qulint\\Admin\Form\Field\Traits;
+namespace Qulint\Admin\Form\Field\Traits;
 
 use Illuminate\Support\Arr;
-use Qulint\\Admin\Admin;
-use Qulint\\Admin\Form;
+use Qulint\Admin\Admin;
+use Qulint\Admin\Form;
 
 /**
  * @property Form $form

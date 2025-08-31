@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Grid;
+namespace Qulint\Admin\Grid;
 
 use Illuminate\Contracts\Support\Renderable;
-use Qulint\\Admin\Grid;
+use Qulint\Admin\Grid;
 
 /**
  * @mixin Grid

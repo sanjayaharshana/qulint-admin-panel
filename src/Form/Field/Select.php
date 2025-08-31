@@ -1,13 +1,13 @@
 <?php
 
-namespace Qulint\\Admin\Form\Field;
+namespace Qulint\Admin\Form\Field;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Qulint\\Admin\Form\Field;
-use Qulint\\Admin\Form\Field\Traits\CanCascadeFields;
+use Qulint\Admin\Form\Field;
+use Qulint\Admin\Form\Field\Traits\CanCascadeFields;
 
 class Select extends Field
 {

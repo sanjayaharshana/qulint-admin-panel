@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Tools;
+namespace Qulint\Admin\Grid\Tools;
 
 use Illuminate\Support\Collection;
-use Qulint\\Admin\Grid;
+use Qulint\Admin\Grid;
 
 class FixColumns
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Tools;
+namespace Qulint\Admin\Grid\Tools;
 
 use Illuminate\Support\Collection;
-use Qulint\\Admin\Actions\BatchAction;
-use Qulint\\Admin\Admin;
+use Qulint\Admin\Actions\BatchAction;
+use Qulint\Admin\Admin;
 
 class BatchActions extends AbstractTool
 {

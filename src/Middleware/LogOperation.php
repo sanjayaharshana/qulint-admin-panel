@@ -1,11 +1,11 @@
 <?php
 
-namespace Qulint\\Admin\Middleware;
+namespace Qulint\Admin\Middleware;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
-use Qulint\\Admin\Auth\Database\OperationLog as OperationLogModel;
-use Qulint\\Admin\Facades\Admin;
+use Qulint\Admin\Auth\Database\OperationLog as OperationLogModel;
+use Qulint\Admin\Facades\Admin;
 
 class LogOperation
 {

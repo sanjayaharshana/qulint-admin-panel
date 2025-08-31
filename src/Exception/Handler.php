@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Exception;
+namespace Qulint\Admin\Exception;
 
 use Illuminate\Support\MessageBag;
 use Illuminate\Support\ViewErrorBag;

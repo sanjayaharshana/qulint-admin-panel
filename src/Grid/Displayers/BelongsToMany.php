@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Displayers;
+namespace Qulint\Admin\Grid\Displayers;
 
 use Illuminate\Database\Eloquent\Relations\BelongsToMany as Relation;
 use Illuminate\Support\Arr;

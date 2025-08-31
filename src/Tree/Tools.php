@@ -1,11 +1,11 @@
 <?php
 
-namespace Qulint\\Admin\Tree;
+namespace Qulint\Admin\Tree;
 
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;
-use Qulint\\Admin\Tree;
+use Qulint\Admin\Tree;
 
 class Tools implements Renderable
 {

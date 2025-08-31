@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Filter\Presenter;
+namespace Qulint\Admin\Grid\Filter\Presenter;
 
 use Illuminate\Support\Arr;
-use Qulint\\Admin\Admin;
+use Qulint\Admin\Admin;
 
 class DateTime extends Presenter
 {

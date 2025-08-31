@@ -1,6 +1,6 @@
 <?php
 
-use Qulint\\Admin\Auth\Database\Administrator;
+use Qulint\Admin\Auth\Database\Administrator;
 use Tests\Models\Profile as ProfileModel;
 use Tests\Models\User as UserModel;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Displayers;
+namespace Qulint\Admin\Grid\Displayers;
 
 use Illuminate\Support\Arr;
-use Qulint\\Admin\Admin;
+use Qulint\Admin\Admin;
 
 class SwitchDisplay extends AbstractDisplayer
 {

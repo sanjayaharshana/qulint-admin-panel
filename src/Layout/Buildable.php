@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Layout;
+namespace Qulint\Admin\Layout;
 
 interface Buildable
 {

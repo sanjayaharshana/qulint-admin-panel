@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Form;
+namespace Qulint\Admin\Form;
 
 use Closure;
 use Illuminate\Contracts\Support\Arrayable;
@@ -8,9 +8,9 @@ use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Illuminate\Support\Traits\Macroable;
-use Qulint\\Admin\Admin;
-use Qulint\\Admin\Form;
-use Qulint\\Admin\Widgets\Form as WidgetForm;
+use Qulint\Admin\Admin;
+use Qulint\Admin\Form;
+use Qulint\Admin\Widgets\Form as WidgetForm;
 
 /**
  * Class Field.

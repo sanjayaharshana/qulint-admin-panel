@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Middleware;
+namespace Qulint\Admin\Middleware;
 
 use Closure;
-use Qulint\\Admin\Facades\Admin;
+use Qulint\Admin\Facades\Admin;
 
 class Authenticate
 {

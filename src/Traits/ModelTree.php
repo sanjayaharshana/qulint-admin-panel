@@ -1,12 +1,12 @@
 <?php
 
-namespace Qulint\\Admin\Traits;
+namespace Qulint\Admin\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Request;
-use Qulint\\Admin\Tree;
+use Qulint\Admin\Tree;
 
 trait ModelTree
 {

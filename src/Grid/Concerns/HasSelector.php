@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Concerns;
+namespace Qulint\Admin\Grid\Concerns;
 
-use Qulint\\Admin\Grid;
-use Qulint\\Admin\Grid\Tools\Selector;
+use Qulint\Admin\Grid;
+use Qulint\Admin\Grid\Tools\Selector;
 
 /**
  * @mixin Grid

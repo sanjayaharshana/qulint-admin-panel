@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Actions\Interactor;
+namespace Qulint\Admin\Actions\Interactor;
 
 class Dialog extends Interactor
 {

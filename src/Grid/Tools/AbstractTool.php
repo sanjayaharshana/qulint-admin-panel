@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Tools;
+namespace Qulint\Admin\Grid\Tools;
 
 use Illuminate\Contracts\Support\Renderable;
-use Qulint\\Admin\Grid;
+use Qulint\Admin\Grid;
 
 abstract class AbstractTool implements Renderable
 {

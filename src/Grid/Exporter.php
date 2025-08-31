@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Grid;
+namespace Qulint\Admin\Grid;
 
-use Qulint\\Admin\Grid;
-use Qulint\\Admin\Grid\Exporters\CsvExporter;
+use Qulint\Admin\Grid;
+use Qulint\Admin\Grid\Exporters\CsvExporter;
 
 class Exporter
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Concerns;
+namespace Qulint\Admin\Grid\Concerns;
 
 use Illuminate\Support\Collection;
-use Qulint\\Admin\Grid\Tools\FixColumns;
+use Qulint\Admin\Grid\Tools\FixColumns;
 
 trait CanFixColumns
 {

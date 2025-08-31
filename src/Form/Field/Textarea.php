@@ -1,10 +1,10 @@
 <?php
 
-namespace Qulint\\Admin\Form\Field;
+namespace Qulint\Admin\Form\Field;
 
-use Qulint\\Admin\Admin;
-use Qulint\\Admin\Form\Field;
-use Qulint\\Admin\Form\Field\Traits\HasValuePicker;
+use Qulint\Admin\Admin;
+use Qulint\Admin\Form\Field;
+use Qulint\Admin\Form\Field\Traits\HasValuePicker;
 
 class Textarea extends Field
 {

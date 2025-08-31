@@ -1,11 +1,11 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Actions;
+namespace Qulint\Admin\Grid\Actions;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
-use Qulint\\Admin\Actions\Response;
-use Qulint\\Admin\Actions\RowAction;
+use Qulint\Admin\Actions\Response;
+use Qulint\Admin\Actions\RowAction;
 
 class Delete extends RowAction
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Show;
+namespace Qulint\Admin\Show;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
@@ -11,9 +11,9 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Illuminate\Support\Traits\Macroable;
-use Qulint\\Admin\Form\Field\Traits\UploadField;
-use Qulint\\Admin\Show;
-use Qulint\\Admin\Widgets\Carousel;
+use Qulint\Admin\Form\Field\Traits\UploadField;
+use Qulint\Admin\Show;
+use Qulint\Admin\Widgets\Carousel;
 
 class Field implements Renderable
 {

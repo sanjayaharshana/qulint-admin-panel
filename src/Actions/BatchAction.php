@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Actions;
+namespace Qulint\Admin\Actions;
 
 use Illuminate\Http\Request;
 

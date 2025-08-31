@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Filter;
+namespace Qulint\Admin\Grid\Filter;
 
 use Illuminate\Support\Arr;
-use Qulint\\Admin\Admin;
+use Qulint\Admin\Admin;
 
 class Between extends AbstractFilter
 {

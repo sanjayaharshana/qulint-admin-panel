@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Filter;
+namespace Qulint\Admin\Grid\Filter;
 
 class Year extends Date
 {

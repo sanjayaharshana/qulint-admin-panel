@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Form\Field;
+namespace Qulint\Admin\Form\Field;
 
 class CheckboxCard extends CheckboxButton
 {

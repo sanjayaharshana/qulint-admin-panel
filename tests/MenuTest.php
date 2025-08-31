@@ -1,7 +1,7 @@
 <?php
 
-use Qulint\\Admin\Auth\Database\Administrator;
-use Qulint\\Admin\Auth\Database\Menu;
+use Qulint\Admin\Auth\Database\Administrator;
+use Qulint\Admin\Auth\Database\Menu;
 
 class MenuTest extends TestCase
 {

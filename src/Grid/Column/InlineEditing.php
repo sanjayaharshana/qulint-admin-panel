@@ -1,8 +1,8 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Column;
+namespace Qulint\Admin\Grid\Column;
 
-use Qulint\\Admin\Grid\Displayers;
+use Qulint\Admin\Grid\Displayers;
 
 trait InlineEditing
 {

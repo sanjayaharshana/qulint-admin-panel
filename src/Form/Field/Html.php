@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Form\Field;
+namespace Qulint\Admin\Form\Field;
 
 use Illuminate\Support\Arr;
-use Qulint\\Admin\Form\Field;
+use Qulint\Admin\Form\Field;
 
 class Html extends Field
 {

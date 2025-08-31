@@ -1,11 +1,11 @@
 <?php
 
-namespace Qulint\\Admin\Console;
+namespace Qulint\Admin\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
-use Qulint\\Admin\Admin;
+use Qulint\Admin\Admin;
 
 class AdminCommand extends Command
 {

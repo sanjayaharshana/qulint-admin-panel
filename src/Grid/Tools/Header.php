@@ -1,11 +1,11 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Tools;
+namespace Qulint\Admin\Grid\Tools;
 
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Query\Builder;
-use Qulint\\Admin\Grid;
+use Qulint\Admin\Grid;
 
 class Header extends AbstractTool
 {

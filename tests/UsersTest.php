@@ -1,6 +1,6 @@
 <?php
 
-use Qulint\\Admin\Auth\Database\Administrator;
+use Qulint\Admin\Auth\Database\Administrator;
 
 class UsersTest extends TestCase
 {

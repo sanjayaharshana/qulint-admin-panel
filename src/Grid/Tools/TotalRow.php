@@ -1,11 +1,11 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Tools;
+namespace Qulint\Admin\Grid\Tools;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Qulint\\Admin\Grid\Column;
+use Qulint\Admin\Grid\Column;
 
 class TotalRow extends AbstractTool
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Show;
+namespace Qulint\Admin\Show;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
@@ -11,8 +11,8 @@ use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
-use Qulint\\Admin\Grid;
-use Qulint\\Admin\Show;
+use Qulint\Admin\Grid;
+use Qulint\Admin\Show;
 
 class Relation extends Field
 {

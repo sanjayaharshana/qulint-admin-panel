@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Form\Concerns;
+namespace Qulint\Admin\Form\Concerns;
 
 use Closure;
 use Illuminate\Support\Arr;

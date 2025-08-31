@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin;
+namespace Qulint\Admin;
 
 use Closure;
 use Illuminate\Database\Eloquent\Model as Eloquent;
@@ -8,14 +8,14 @@ use Illuminate\Database\Eloquent\Relations;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Illuminate\Support\Traits\Macroable;
-use Qulint\\Admin\Exception\Handler;
-use Qulint\\Admin\Grid\Column;
-use Qulint\\Admin\Grid\Concerns;
-use Qulint\\Admin\Grid\Displayers;
-use Qulint\\Admin\Grid\Model;
-use Qulint\\Admin\Grid\Row;
-use Qulint\\Admin\Grid\Tools;
-use Qulint\\Admin\Traits\ShouldSnakeAttributes;
+use Qulint\Admin\Exception\Handler;
+use Qulint\Admin\Grid\Column;
+use Qulint\Admin\Grid\Concerns;
+use Qulint\Admin\Grid\Displayers;
+use Qulint\Admin\Grid\Model;
+use Qulint\Admin\Grid\Row;
+use Qulint\Admin\Grid\Tools;
+use Qulint\Admin\Traits\ShouldSnakeAttributes;
 
 class Grid
 {

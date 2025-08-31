@@ -1,8 +1,8 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Tools;
+namespace Qulint\Admin\Grid\Tools;
 
-use Qulint\\Admin\Actions\BatchAction;
+use Qulint\Admin\Actions\BatchAction;
 
 class BatchDelete extends BatchAction
 {

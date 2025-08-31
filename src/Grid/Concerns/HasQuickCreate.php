@@ -1,8 +1,8 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Concerns;
+namespace Qulint\Admin\Grid\Concerns;
 
-use Qulint\\Admin\Grid\Tools\QuickCreate;
+use Qulint\Admin\Grid\Tools\QuickCreate;
 
 trait HasQuickCreate
 {

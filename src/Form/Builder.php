@@ -1,14 +1,14 @@
 <?php
 
-namespace Qulint\\Admin\Form;
+namespace Qulint\Admin\Form;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Str;
-use Qulint\\Admin\Admin;
-use Qulint\\Admin\Form;
-use Qulint\\Admin\Form\Field\Hidden;
+use Qulint\Admin\Admin;
+use Qulint\Admin\Form;
+use Qulint\Admin\Form\Field\Hidden;
 
 /**
  * Class Builder.

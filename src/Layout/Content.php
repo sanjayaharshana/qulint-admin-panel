@@ -1,11 +1,11 @@
 <?php
 
-namespace Qulint\\Admin\Layout;
+namespace Qulint\Admin\Layout;
 
 use Closure;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;
-use Qulint\\Admin\Facades\Admin;
+use Qulint\Admin\Facades\Admin;
 
 class Content implements Renderable
 {

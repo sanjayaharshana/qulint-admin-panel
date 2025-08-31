@@ -1,10 +1,10 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Filter;
+namespace Qulint\Admin\Grid\Filter;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Qulint\\Admin\Admin;
+use Qulint\Admin\Admin;
 
 class Group extends AbstractFilter
 {

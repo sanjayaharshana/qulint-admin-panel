@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Grid;
+namespace Qulint\Admin\Grid;
 
 use Closure;
 use Illuminate\Contracts\Support\Arrayable;
@@ -8,9 +8,9 @@ use Illuminate\Database\Eloquent\Model as BaseModel;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use Qulint\\Admin\Actions\RowAction;
-use Qulint\\Admin\Grid;
-use Qulint\\Admin\Grid\Displayers\AbstractDisplayer;
+use Qulint\Admin\Actions\RowAction;
+use Qulint\Admin\Grid;
+use Qulint\Admin\Grid\Displayers\AbstractDisplayer;
 
 class Column
 {

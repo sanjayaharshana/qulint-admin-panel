@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Column;
+namespace Qulint\Admin\Grid\Column;
 
 use Illuminate\Contracts\Support\Renderable;
 

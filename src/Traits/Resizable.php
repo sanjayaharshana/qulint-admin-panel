@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Traits;
+namespace Qulint\Admin\Traits;
 
 use Illuminate\Support\Str;
 

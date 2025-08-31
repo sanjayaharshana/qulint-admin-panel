@@ -1,8 +1,8 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Tools;
+namespace Qulint\Admin\Grid\Tools;
 
-use Qulint\\Admin\Admin;
+use Qulint\Admin\Admin;
 
 class FilterButton extends AbstractTool
 {

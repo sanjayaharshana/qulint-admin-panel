@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Form\Field;
+namespace Qulint\Admin\Form\Field;
 
-use Qulint\\Admin\Form\Field;
-use Qulint\\Admin\Form\Field\Traits\ImageField;
+use Qulint\Admin\Form\Field;
+use Qulint\Admin\Form\Field\Traits\ImageField;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 class Image extends File

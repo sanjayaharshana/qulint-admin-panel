@@ -1,10 +1,10 @@
 <?php
 
-namespace Qulint\\Admin\Controllers;
+namespace Qulint\Admin\Controllers;
 
-use Qulint\\Admin\Form;
-use Qulint\\Admin\Grid;
-use Qulint\\Admin\Show;
+use Qulint\Admin\Form;
+use Qulint\Admin\Grid;
+use Qulint\Admin\Show;
 
 class RoleController extends AdminController
 {

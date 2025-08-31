@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Concerns;
+namespace Qulint\Admin\Grid\Concerns;
 
 use Closure;
-use Qulint\\Admin\Grid\Tools\TotalRow;
+use Qulint\Admin\Grid\Tools\TotalRow;
 
 trait HasTotalRow
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Exporters;
+namespace Qulint\Admin\Grid\Exporters;
 
-use Qulint\\Admin\Grid;
+use Qulint\Admin\Grid;
 
 abstract class AbstractExporter implements ExporterInterface
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Concerns;
+namespace Qulint\Admin\Grid\Concerns;
 
 use Illuminate\Support\Collection;
-use Qulint\\Admin\Grid;
-use Qulint\\Admin\Grid\Tools\ColumnSelector;
+use Qulint\Admin\Grid;
+use Qulint\Admin\Grid\Tools\ColumnSelector;
 
 trait CanHidesColumns
 {

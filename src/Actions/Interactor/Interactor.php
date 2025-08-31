@@ -1,8 +1,8 @@
 <?php
 
-namespace Qulint\\Admin\Actions\Interactor;
+namespace Qulint\Admin\Actions\Interactor;
 
-use Qulint\\Admin\Actions\Action;
+use Qulint\Admin\Actions\Action;
 
 abstract class Interactor
 {

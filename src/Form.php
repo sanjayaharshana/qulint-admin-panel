@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin;
+namespace Qulint\Admin;
 
 use Closure;
 use Illuminate\Contracts\Support\Arrayable;
@@ -14,18 +14,18 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\MessageBag;
 use Illuminate\Support\Str;
 use Illuminate\Validation\Validator;
-use Qulint\\Admin\Exception\Handler;
-use Qulint\\Admin\Form\Builder;
-use Qulint\\Admin\Form\Concerns\HandleCascadeFields;
-use Qulint\\Admin\Form\Concerns\HasFields;
-use Qulint\\Admin\Form\Concerns\HasFormAttributes;
-use Qulint\\Admin\Form\Concerns\HasHooks;
-use Qulint\\Admin\Form\Field;
-use Qulint\\Admin\Form\Layout\Layout;
-use Qulint\\Admin\Form\Row;
-use Qulint\\Admin\Form\Tab;
-use Qulint\\Admin\Grid\Tools\BatchEdit;
-use Qulint\\Admin\Traits\ShouldSnakeAttributes;
+use Qulint\Admin\Exception\Handler;
+use Qulint\Admin\Form\Builder;
+use Qulint\Admin\Form\Concerns\HandleCascadeFields;
+use Qulint\Admin\Form\Concerns\HasFields;
+use Qulint\Admin\Form\Concerns\HasFormAttributes;
+use Qulint\Admin\Form\Concerns\HasHooks;
+use Qulint\Admin\Form\Field;
+use Qulint\Admin\Form\Layout\Layout;
+use Qulint\Admin\Form\Row;
+use Qulint\Admin\Form\Tab;
+use Qulint\Admin\Grid\Tools\BatchEdit;
+use Qulint\Admin\Traits\ShouldSnakeAttributes;
 use Spatie\EloquentSortable\Sortable;
 use Symfony\Component\HttpFoundation\Response;
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Concerns;
+namespace Qulint\Admin\Grid\Concerns;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use Qulint\\Admin\Grid\Column;
-use Qulint\\Admin\Grid\Model;
-use Qulint\\Admin\Grid\Tools;
+use Qulint\Admin\Grid\Column;
+use Qulint\Admin\Grid\Model;
+use Qulint\Admin\Grid\Tools;
 
 /**
  * Trait HasQuickSearch.

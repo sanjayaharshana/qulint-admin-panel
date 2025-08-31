@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Grid;
+namespace Qulint\Admin\Grid;
 
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -12,8 +12,8 @@ use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Str;
-use Qulint\\Admin\Grid;
-use Qulint\\Admin\Middleware\Pjax;
+use Qulint\Admin\Grid;
+use Qulint\Admin\Middleware\Pjax;
 
 class Model
 {

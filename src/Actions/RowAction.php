@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Actions;
+namespace Qulint\Admin\Actions;
 
 use Illuminate\Http\Request;
-use Qulint\\Admin\Grid\Column;
+use Qulint\Admin\Grid\Column;
 
 abstract class RowAction extends GridAction
 {

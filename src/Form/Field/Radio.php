@@ -1,10 +1,10 @@
 <?php
 
-namespace Qulint\\Admin\Form\Field;
+namespace Qulint\Admin\Form\Field;
 
 use Illuminate\Contracts\Support\Arrayable;
-use Qulint\\Admin\Form\Field;
-use Qulint\\Admin\Form\Field\Traits\CanCascadeFields;
+use Qulint\Admin\Form\Field;
+use Qulint\Admin\Form\Field\Traits\CanCascadeFields;
 
 class Radio extends Field
 {

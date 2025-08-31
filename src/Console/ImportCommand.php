@@ -1,10 +1,10 @@
 <?php
 
-namespace Qulint\\Admin\Console;
+namespace Qulint\Admin\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
-use Qulint\\Admin\Admin;
+use Qulint\Admin\Admin;
 
 class ImportCommand extends Command
 {

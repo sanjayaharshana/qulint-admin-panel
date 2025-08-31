@@ -2,9 +2,9 @@
 
 namespace Tests\Controllers;
 
-use Qulint\\Admin\Controllers\AdminController;
-use Qulint\\Admin\Form;
-use Qulint\\Admin\Grid;
+use Qulint\Admin\Controllers\AdminController;
+use Qulint\Admin\Form;
+use Qulint\Admin\Grid;
 use Tests\Models\Tag;
 use Tests\Models\User;
 

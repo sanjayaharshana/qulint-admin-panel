@@ -3,10 +3,10 @@
  * Copyright (c) 2019. Mallto.Co.Ltd.<mall-to.com> All rights reserved.
  */
 
-namespace Qulint\\Admin\Form\Layout;
+namespace Qulint\Admin\Form\Layout;
 
 use Illuminate\Support\Collection;
-use Qulint\\Admin\Form\Field;
+use Qulint\Admin\Form\Field;
 
 class Column
 {

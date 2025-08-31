@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Auth;
+namespace Qulint\Admin\Auth;
 
-use Qulint\\Admin\Facades\Admin;
-use Qulint\\Admin\Middleware\Pjax;
+use Qulint\Admin\Facades\Admin;
+use Qulint\Admin\Middleware\Pjax;
 
 class Permission
 {

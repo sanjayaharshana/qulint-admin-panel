@@ -1,17 +1,17 @@
 <?php
 
-namespace Qulint\\Admin\Grid;
+namespace Qulint\Admin\Grid;
 
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;
-use Qulint\\Admin\Actions\Action;
-use Qulint\\Admin\Actions\BatchAction;
-use Qulint\\Admin\Actions\GridAction;
-use Qulint\\Admin\Grid;
-use Qulint\\Admin\Grid\Tools\AbstractTool;
-use Qulint\\Admin\Grid\Tools\BatchActions;
-use Qulint\\Admin\Grid\Tools\FilterButton;
+use Qulint\Admin\Actions\Action;
+use Qulint\Admin\Actions\BatchAction;
+use Qulint\Admin\Actions\GridAction;
+use Qulint\Admin\Grid;
+use Qulint\Admin\Grid\Tools\AbstractTool;
+use Qulint\Admin\Grid\Tools\BatchActions;
+use Qulint\Admin\Grid\Tools\FilterButton;
 
 class Tools implements Renderable
 {

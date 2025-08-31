@@ -1,11 +1,11 @@
 <?php
 
-namespace Qulint\\Admin\Middleware;
+namespace Qulint\Admin\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Lang;
 use Illuminate\Support\Facades\RateLimiter;
-use Qulint\\Admin\Facades\Admin;
+use Qulint\Admin\Facades\Admin;
 
 class Throttle
 {

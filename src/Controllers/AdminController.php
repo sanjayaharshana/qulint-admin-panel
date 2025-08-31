@@ -1,10 +1,10 @@
 <?php
 
-namespace Qulint\\Admin\Controllers;
+namespace Qulint\Admin\Controllers;
 
 use Illuminate\Routing\Controller;
-use Qulint\\Admin\Layout\Content;
-use Qulint\\Admin\Traits\HasCustomHooks;
+use Qulint\Admin\Layout\Content;
+use Qulint\Admin\Traits\HasCustomHooks;
 
 class AdminController extends Controller
 {

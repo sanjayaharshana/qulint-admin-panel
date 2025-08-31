@@ -1,12 +1,12 @@
 <?php
 
-namespace Qulint\\Admin\Auth\Database;
+namespace Qulint\Admin\Auth\Database;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Facades\DB;
-use Qulint\\Admin\Traits\DefaultDatetimeFormat;
-use Qulint\\Admin\Traits\ModelTree;
+use Qulint\Admin\Traits\DefaultDatetimeFormat;
+use Qulint\Admin\Traits\ModelTree;
 
 /**
  * Class Menu.

@@ -1,14 +1,14 @@
 <?php
 
-namespace Qulint\\Admin\Controllers;
+namespace Qulint\Admin\Controllers;
 
 use Illuminate\Routing\Controller;
-use Qulint\\Admin\Form;
-use Qulint\\Admin\Layout\Column;
-use Qulint\\Admin\Layout\Content;
-use Qulint\\Admin\Layout\Row;
-use Qulint\\Admin\Tree;
-use Qulint\\Admin\Widgets\Box;
+use Qulint\Admin\Form;
+use Qulint\Admin\Layout\Column;
+use Qulint\Admin\Layout\Content;
+use Qulint\Admin\Layout\Row;
+use Qulint\Admin\Tree;
+use Qulint\Admin\Widgets\Box;
 
 class MenuController extends Controller
 {

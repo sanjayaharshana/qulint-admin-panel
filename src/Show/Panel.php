@@ -1,10 +1,10 @@
 <?php
 
-namespace Qulint\\Admin\Show;
+namespace Qulint\Admin\Show;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;
-use Qulint\\Admin\Show;
+use Qulint\Admin\Show;
 
 class Panel implements Renderable
 {

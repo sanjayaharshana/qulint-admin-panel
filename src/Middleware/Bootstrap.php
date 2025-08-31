@@ -1,10 +1,10 @@
 <?php
 
-namespace Qulint\\Admin\Middleware;
+namespace Qulint\Admin\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use Qulint\\Admin\Facades\Admin;
+use Qulint\Admin\Facades\Admin;
 
 class Bootstrap
 {

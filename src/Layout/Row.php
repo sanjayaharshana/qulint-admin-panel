@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Layout;
+namespace Qulint\Admin\Layout;
 
 use Illuminate\Contracts\Support\Renderable;
 

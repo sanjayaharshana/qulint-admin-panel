@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Actions\Interactor;
+namespace Qulint\Admin\Actions\Interactor;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
@@ -8,10 +8,10 @@ use Illuminate\Support\Facades\View;
 use Illuminate\Support\MessageBag;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Validation\Validator;
-use Qulint\\Admin\Actions\RowAction;
-use Qulint\\Admin\Admin;
-use Qulint\\Admin\Form as ModalForm;
-use Qulint\\Admin\Form\Field;
+use Qulint\Admin\Actions\RowAction;
+use Qulint\Admin\Admin;
+use Qulint\Admin\Form as ModalForm;
+use Qulint\Admin\Form\Field;
 use Symfony\Component\DomCrawler\Crawler;
 
 class Form extends Interactor

@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Tools;
+namespace Qulint\Admin\Grid\Tools;
 
-use Qulint\\Admin\Admin;
-use Qulint\\Admin\Grid;
+use Qulint\Admin\Admin;
+use Qulint\Admin\Grid;
 
 class PerPageSelector extends AbstractTool
 {

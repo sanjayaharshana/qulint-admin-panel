@@ -1,8 +1,8 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Selectable;
+namespace Qulint\Admin\Grid\Selectable;
 
-use Qulint\\Admin\Grid\Displayers\AbstractDisplayer;
+use Qulint\Admin\Grid\Displayers\AbstractDisplayer;
 
 class Radio extends AbstractDisplayer
 {

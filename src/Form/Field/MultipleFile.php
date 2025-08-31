@@ -1,12 +1,12 @@
 <?php
 
-namespace Qulint\\Admin\Form\Field;
+namespace Qulint\Admin\Form\Field;
 
 use Illuminate\Support\Arr;
-use Qulint\\Admin\Form;
-use Qulint\\Admin\Form\Field;
-use Qulint\\Admin\Form\Field\Traits\HasMediaPicker;
-use Qulint\\Admin\Form\Field\Traits\UploadField;
+use Qulint\Admin\Form;
+use Qulint\Admin\Form\Field;
+use Qulint\Admin\Form\Field\Traits\HasMediaPicker;
+use Qulint\Admin\Form\Field\Traits\UploadField;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 class MultipleFile extends Field

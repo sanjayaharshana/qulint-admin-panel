@@ -1,10 +1,10 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Concerns;
+namespace Qulint\Admin\Grid\Concerns;
 
-use Qulint\\Admin\Grid;
-use Qulint\\Admin\Grid\Exporter;
-use Qulint\\Admin\Grid\Exporters\AbstractExporter;
+use Qulint\Admin\Grid;
+use Qulint\Admin\Grid\Exporter;
+use Qulint\Admin\Grid\Exporters\AbstractExporter;
 
 trait CanExportGrid
 {

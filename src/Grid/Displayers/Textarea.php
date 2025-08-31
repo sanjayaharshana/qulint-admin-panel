@@ -1,8 +1,8 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Displayers;
+namespace Qulint\Admin\Grid\Displayers;
 
-use Qulint\\Admin\Admin;
+use Qulint\Admin\Admin;
 
 class Textarea extends AbstractDisplayer
 {

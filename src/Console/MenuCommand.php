@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Console;
+namespace Qulint\Admin\Console;
 
 use Illuminate\Console\Command;
-use Qulint\\Admin\Facades\Admin;
+use Qulint\Admin\Facades\Admin;
 
 class MenuCommand extends Command
 {

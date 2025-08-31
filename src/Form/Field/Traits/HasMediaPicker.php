@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Form\Field\Traits;
+namespace Qulint\Admin\Form\Field\Traits;
 
-use Qulint\\Admin\Admin;
-use Qulint\\Admin\Form\Field;
+use Qulint\Admin\Admin;
+use Qulint\Admin\Form\Field;
 
 /**
  * @mixin Field

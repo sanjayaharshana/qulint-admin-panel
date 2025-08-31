@@ -1,15 +1,15 @@
 <?php
 
-namespace Qulint\\Admin\Grid;
+namespace Qulint\Admin\Grid;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use Qulint\\Admin\Grid\Filter\AbstractFilter;
-use Qulint\\Admin\Grid\Filter\Layout\Layout;
-use Qulint\\Admin\Grid\Filter\Scope;
+use Qulint\Admin\Grid\Filter\AbstractFilter;
+use Qulint\Admin\Grid\Filter\Layout\Layout;
+use Qulint\Admin\Grid\Filter\Scope;
 
 /**
  * Class Filter.

@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Column;
+namespace Qulint\Admin\Grid\Column;
 
-use Qulint\\Admin\Admin;
-use Qulint\\Admin\Grid\Model;
+use Qulint\Admin\Admin;
+use Qulint\Admin\Grid\Model;
 
 class CheckFilter extends Filter
 {

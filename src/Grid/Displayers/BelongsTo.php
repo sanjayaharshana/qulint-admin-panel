@@ -1,10 +1,10 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Displayers;
+namespace Qulint\Admin\Grid\Displayers;
 
-use Qulint\\Admin\Admin;
-use Qulint\\Admin\Form\Field\Traits\BelongsToRelation;
-use Qulint\\Admin\Grid\Selectable;
+use Qulint\Admin\Admin;
+use Qulint\Admin\Form\Field\Traits\BelongsToRelation;
+use Qulint\Admin\Grid\Selectable;
 
 class BelongsTo extends AbstractDisplayer
 {

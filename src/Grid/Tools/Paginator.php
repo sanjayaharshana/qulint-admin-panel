@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Tools;
+namespace Qulint\Admin\Grid\Tools;
 
 use Illuminate\Pagination\LengthAwarePaginator;
-use Qulint\\Admin\Grid;
+use Qulint\Admin\Grid;
 
 class Paginator extends AbstractTool
 {

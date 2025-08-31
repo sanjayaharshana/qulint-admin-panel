@@ -1,8 +1,8 @@
 <?php
 
-namespace Qulint\\Admin\Form\Field;
+namespace Qulint\Admin\Form\Field;
 
-use Qulint\\Admin\Form\Field\Traits\BelongsToRelation;
+use Qulint\Admin\Form\Field\Traits\BelongsToRelation;
 
 class BelongsTo extends Select
 {

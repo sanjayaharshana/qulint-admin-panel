@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Form\Concerns;
+namespace Qulint\Admin\Form\Concerns;
 
 use Illuminate\Support\Arr;
-use Qulint\\Admin\Form\Field;
+use Qulint\Admin\Form\Field;
 
 /**
  * @method Field\Text           text($column, $label = '')

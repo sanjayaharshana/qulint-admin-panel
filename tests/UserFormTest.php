@@ -1,6 +1,6 @@
 <?php
 
-use Qulint\\Admin\Auth\Database\Administrator;
+use Qulint\Admin\Auth\Database\Administrator;
 use Tests\Models\User as UserModel;
 
 class UserFormTest extends TestCase

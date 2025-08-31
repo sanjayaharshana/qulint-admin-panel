@@ -1,10 +1,10 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Tools;
+namespace Qulint\Admin\Grid\Tools;
 
 use Illuminate\Support\Collection;
-use Qulint\\Admin\Admin;
-use Qulint\\Admin\Grid;
+use Qulint\Admin\Admin;
+use Qulint\Admin\Grid;
 
 class ColumnSelector extends AbstractTool
 {

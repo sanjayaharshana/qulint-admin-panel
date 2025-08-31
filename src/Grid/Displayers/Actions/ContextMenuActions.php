@@ -1,6 +1,6 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Displayers\Actions;
+namespace Qulint\Admin\Grid\Displayers\Actions;
 
 class ContextMenuActions extends DropdownActions
 {

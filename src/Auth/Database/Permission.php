@@ -1,12 +1,12 @@
 <?php
 
-namespace Qulint\\Admin\Auth\Database;
+namespace Qulint\Admin\Auth\Database;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
-use Qulint\\Admin\Traits\DefaultDatetimeFormat;
+use Qulint\Admin\Traits\DefaultDatetimeFormat;
 
 class Permission extends Model
 {

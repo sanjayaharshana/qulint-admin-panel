@@ -1,8 +1,8 @@
 <?php
 
-namespace Qulint\\Admin\Form\Field;
+namespace Qulint\Admin\Form\Field;
 
-use Qulint\\Admin\Form;
+use Qulint\Admin\Form;
 
 class Url extends Text
 {

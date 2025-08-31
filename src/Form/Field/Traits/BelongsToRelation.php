@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Form\Field\Traits;
+namespace Qulint\Admin\Form\Field\Traits;
 
-use Qulint\\Admin\Admin;
-use Qulint\\Admin\Grid\Selectable;
+use Qulint\Admin\Admin;
+use Qulint\Admin\Grid\Selectable;
 
 trait BelongsToRelation
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Qulint\\Admin\Grid\Filter\Layout;
+namespace Qulint\Admin\Grid\Filter\Layout;
 
 use Illuminate\Support\Collection;
-use Qulint\\Admin\Grid\Filter;
+use Qulint\Admin\Grid\Filter;
 
 class Layout
 {
