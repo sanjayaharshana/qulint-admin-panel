@@ -5,13 +5,74 @@
  * Licensed under MIT
  */
 
-/* Import theme system */
-@import url('./modern-white-theme.css');
-@import url('./theme-config.css');
-
 /* Base styles with modern white theme */
 :root {
-    /* Theme system variables are defined in modern-white-theme.css */
+    /* Color Palette */
+    --primary-color: #3b82f6;
+    --primary-hover: #2563eb;
+    --primary-light: #dbeafe;
+    --primary-dark: #1e40af;
+    
+    --secondary-color: #6b7280;
+    --secondary-hover: #4b5563;
+    --secondary-light: #f3f4f6;
+    --secondary-dark: #374151;
+    
+    --success-color: #10b981;
+    --success-hover: #059669;
+    --success-light: #d1fae5;
+    --success-dark: #047857;
+    
+    --danger-color: #ef4444;
+    --danger-hover: #dc2626;
+    --danger-light: #fee2e2;
+    --danger-dark: #b91c1c;
+    
+    --warning-color: #f59e0b;
+    --warning-hover: #d97706;
+    --warning-light: #fef3c7;
+    --warning-dark: #b45309;
+    
+    --info-color: #06b6d4;
+    --info-hover: #0891b2;
+    --info-light: #cffafe;
+    --info-dark: #0e7490;
+    
+    /* Background Colors */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8fafc;
+    --bg-card: #ffffff;
+    --bg-card-header: #f8fafc;
+    --bg-card-footer: #f8fafc;
+    --bg-input: #ffffff;
+    --bg-disabled: #f1f5f9;
+    --bg-hover: #f1f5f9;
+    --bg-table-header: #f8fafc;
+    
+    /* Text Colors */
+    --text-primary: #1e293b;
+    --text-secondary: #64748b;
+    --text-muted: #94a3b8;
+    --text-inverse: #ffffff;
+    
+    /* Border Colors */
+    --border-color: #e2e8f0;
+    --border-light: #f1f5f9;
+    --border-dark: #cbd5e1;
+    
+    /* Shadow Colors */
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --shadow-color-lg: rgba(0, 0, 0, 0.15);
+    
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 3rem;
+    
+    /* Admin specific variables */
     --admin-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     --admin-font-size-base: 14px;
     --admin-line-height: 1.6;

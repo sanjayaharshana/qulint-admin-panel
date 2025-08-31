@@ -3,33 +3,29 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue.svg)](composer.json)
 [![Laravel Version](https://img.shields.io/badge/laravel-%3E%3D10.0-red.svg)](composer.json)
-[![Latest Version](https://img.shields.io/badge/version-3.0.21-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
+[![Latest Version](https://img.shields.io/badge/version-3.0.22-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
 
 A modern, feature-rich Laravel admin panel that's completely free and open-source. Built on top of Laravel framework with a beautiful, responsive interface and extensive functionality. **Qulint Admin Panel** is an upgraded fork of [Open Admin](https://github.com/qulint-admin-org/qulint-admin) that supports Laravel 11 and Laravel 12, since the original Open Admin project has stopped development after Laravel 10.
 
-## What's New in v3.0.21
+## What's New in v3.0.22
 
-### 🎨 Release: Updated Main Styles with Modern White Theme
-- **✅ Complete CSS Overhaul**: Replaced Bootstrap CSS with custom modern white theme
-- **✅ Theme System Integration**: Integrated with modern-white-theme.css and theme-config.css
-- **✅ Clean Modern Design**: Removed all Bootstrap dependencies and created custom components
-- **✅ Enhanced User Experience**: Improved styling for all admin panel components
+### 🔧 Release: Fixed CSS Asset Loading Issues
+- **✅ Fixed CSS Import Errors**: Removed problematic @import statements that were causing 404 errors
+- **✅ Direct Variable Integration**: Integrated theme variables directly into styles.css for better reliability
+- **✅ Enhanced Asset Loading**: Improved CSS file structure to prevent loading failures
+- **✅ Comprehensive Troubleshooting**: Added detailed asset loading troubleshooting guide
 
-### 🎨 Modern Components
-- **Custom Cards**: Clean, modern card design with hover effects
-- **Modern Buttons**: Consistent button styling with proper states
-- **Enhanced Forms**: Improved form controls with focus states
-- **Clean Tables**: Modern table design with hover effects
-- **Responsive Alerts**: Better alert styling with color variants
-- **Modern Badges**: Clean badge design for status indicators
+### 🔧 Asset Loading Fixes
+- **Removed @import Dependencies**: Eliminated external CSS imports that were failing
+- **Direct CSS Variables**: All theme variables now defined directly in main CSS file
+- **Better Error Handling**: Improved CSS structure to prevent loading issues
+- **Enhanced Documentation**: Comprehensive troubleshooting guide for asset loading
 
-### 🔧 Technical Improvements
-- **CSS Custom Properties**: Full integration with theme system
-- **Responsive Design**: Mobile-first approach with breakpoints
-- **Accessibility**: WCAG compliant with focus states and reduced motion
-- **Performance**: Optimized CSS with modern best practices
-- **Browser Support**: Cross-browser compatibility
-- **Print Styles**: Optimized for printing
+### 📚 Documentation Improvements
+- **Asset Troubleshooting Guide**: Complete guide for fixing CSS loading issues
+- **Step-by-Step Solutions**: Detailed troubleshooting steps for common problems
+- **Environment-Specific Fixes**: Solutions for different development environments
+- **Verification Steps**: How to confirm assets are loading correctly
 
 ## Features
 
