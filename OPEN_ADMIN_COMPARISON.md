@@ -10,7 +10,7 @@ This document provides a comprehensive comparison between the original [Open Adm
 | **Laravel Support** | 7.x - 10.x | 10.x - 12.x |
 | **PHP Support** | >= 7.3 | >= 8.1 |
 | **Last Update** | 2023 | 2025 (Active) |
-| **Namespace** | `OpenAdmin\Admin` | `Qulint\Admin` |
+| **Namespace** | `Qulint\Admin` | `Qulint\Admin` |
 | **Package Name** | `open-admin-org/open-admin` | `sanjayaharshana/qulint-admin-panel` |
 
 ## Key Differences
@@ -61,10 +61,10 @@ This document provides a comprehensive comparison between the original [Open Adm
 
 ```php
 // OLD (Open Admin)
-use OpenAdmin\Admin\Form;
-use OpenAdmin\Admin\Grid;
-use OpenAdmin\Admin\Show;
-use OpenAdmin\Admin\Facades\Admin;
+use Qulint\Admin\Form;
+use Qulint\Admin\Grid;
+use Qulint\Admin\Show;
+use Qulint\Admin\Facades\Admin;
 
 // NEW (Qulint Admin Panel)
 use Qulint\Admin\Form;
@@ -78,10 +78,10 @@ use Qulint\Admin\Facades\Admin;
 #### Model References
 ```php
 // Open Admin
-'users_model' => OpenAdmin\Admin\Auth\Database\Administrator::class,
-'roles_model' => OpenAdmin\Admin\Auth\Database\Role::class,
-'permissions_model' => OpenAdmin\Admin\Auth\Database\Permission::class,
-'menu_model' => OpenAdmin\Admin\Auth\Database\Menu::class,
+'users_model' => Qulint\Admin\Auth\Database\Administrator::class,
+'roles_model' => Qulint\Admin\Auth\Database\Role::class,
+'permissions_model' => Qulint\Admin\Auth\Database\Permission::class,
+'menu_model' => Qulint\Admin\Auth\Database\Menu::class,
 
 // Qulint Admin Panel
 'users_model' => Qulint\Admin\Auth\Database\Administrator::class,
@@ -95,7 +95,7 @@ use Qulint\Admin\Facades\Admin;
 #### Open Admin
 ```bash
 composer require open-admin-org/open-admin
-php artisan vendor:publish --provider="OpenAdmin\Admin\AdminServiceProvider"
+php artisan vendor:publish --provider="Qulint\Admin\AdminServiceProvider"
 php artisan admin:install
 ```
 
@@ -121,8 +121,8 @@ composer require sanjayaharshana/qulint-admin-panel:^3.0
 
 #### Step 2: Update Namespace References
 ```bash
-# Update all OpenAdmin references to Qulint
-find . -name "*.php" -exec sed -i 's/OpenAdmin\\Admin/Qulint\\Admin/g' {} \;
+# Update all Qulint references to Qulint
+find . -name "*.php" -exec sed -i 's/Qulint\\Admin/Qulint\\Admin/g' {} \;
 ```
 
 #### Step 3: Update Configuration
@@ -231,7 +231,7 @@ composer remove open-admin-org/open-admin
 composer require sanjayaharshana/qulint-admin-panel:^3.0
 
 # Update namespaces and republish
-find . -name "*.php" -exec sed -i 's/OpenAdmin\\Admin/Qulint\\Admin/g' {} \;
+find . -name "*.php" -exec sed -i 's/Qulint\\Admin/Qulint\\Admin/g' {} \;
 php artisan vendor:publish --provider="Qulint\Admin\AdminServiceProvider" --force
 php artisan config:clear
 ```

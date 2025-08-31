@@ -28,7 +28,7 @@ This guide outlines the changes made to upgrade Qulint Admin Panel to support La
 - **Reason**: Laravel 11 requires PHP 8.1+
 
 ### 2. Namespace Changes
-- **Old**: `OpenAdmin\Admin\*`
+- **Old**: `Qulint\Admin\*`
 - **New**: `Qulint\Admin\*`
 
 ### 3. Removed Version Compatibility Checks
@@ -73,11 +73,11 @@ All model references in `config/admin.php` have been updated:
 
 ```php
 // OLD
-'users_model' => OpenAdmin\Admin\Auth\Database\Administrator::class,
-'roles_model' => OpenAdmin\Admin\Auth\Database\Role::class,
-'permissions_model' => OpenAdmin\Admin\Auth\Database\Permission::class,
-'menu_model' => OpenAdmin\Admin\Auth\Database\Menu::class,
-'grid_action_class' => \OpenAdmin\Admin\Grid\Displayers\Actions\Actions::class,
+'users_model' => Qulint\Admin\Auth\Database\Administrator::class,
+'roles_model' => Qulint\Admin\Auth\Database\Role::class,
+'permissions_model' => Qulint\Admin\Auth\Database\Permission::class,
+'menu_model' => Qulint\Admin\Auth\Database\Menu::class,
+'grid_action_class' => \Qulint\Admin\Grid\Displayers\Actions\Actions::class,
 
 // NEW
 'users_model' => Qulint\Admin\Auth\Database\Administrator::class,
@@ -102,9 +102,9 @@ If you have custom code using the old namespace, update it:
 
 ```php
 // OLD
-use OpenAdmin\Admin\Form;
-use OpenAdmin\Admin\Grid;
-use OpenAdmin\Admin\Show;
+use Qulint\Admin\Form;
+use Qulint\Admin\Grid;
+use Qulint\Admin\Show;
 
 // NEW
 use Qulint\Admin\Form;
@@ -155,7 +155,7 @@ composer test
 ### Common Issues
 
 1. **Namespace Errors**
-   - Ensure all `OpenAdmin\Admin` references are updated to `Qulint\Admin`
+   - Ensure all `Qulint\Admin` references are updated to `Qulint\Admin`
    - Clear autoload cache: `composer dump-autoload`
 
 2. **PHP Version Errors**
@@ -182,7 +182,7 @@ For issues related to the upgrade:
 ### Version 3.0.0
 - ✅ Added Laravel 11/12 support
 - ✅ Upgraded PHP requirement to 8.1+
-- ✅ Updated namespace from OpenAdmin to Qulint
+- ✅ Updated namespace from Qulint to Qulint
 - ✅ Removed deprecated version compatibility checks
 - ✅ Updated all dependencies to latest compatible versions
 - ✅ Improved performance and security
