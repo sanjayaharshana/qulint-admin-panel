@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAdmin\Admin\Traits;
+namespace Qulint\Admin\Traits;
 
 use Carbon\Carbon;
 
@@ -8,10 +8,7 @@ trait DefaultDatetimeFormat
 {
     protected function serializeDate(\DateTimeInterface $date)
     {
-        if (version_compare(app()->version(), '7.0.0') < 0) {
-            return parent::serializeDate($date);
-        }
-
+        // Laravel 7+ uses Carbon's default format
         return $date->format(Carbon::DEFAULT_TO_STRING_FORMAT);
     }
 }

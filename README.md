@@ -1,8 +1,8 @@
 # Qulint Admin Panel
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![PHP Version](https://img.shields.io/badge/php-%3E%3D7.3-blue.svg)](composer.json)
-[![Laravel Version](https://img.shields.io/badge/laravel-%3E%3D7.0-red.svg)](composer.json)
+[![PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue.svg)](composer.json)
+[![Laravel Version](https://img.shields.io/badge/laravel-%3E%3D10.0-red.svg)](composer.json)
 
 A modern, feature-rich Laravel admin panel that's completely free and open-source. Built on top of Laravel framework with a beautiful, responsive interface and extensive functionality.
 
@@ -49,8 +49,8 @@ A modern, feature-rich Laravel admin panel that's completely free and open-sourc
 
 ## Requirements
 
-- PHP >= 7.3
-- Laravel >= 7.0
+- PHP >= 8.1
+- Laravel >= 10.0
 - MySQL/PostgreSQL/SQLite
 - Composer
 

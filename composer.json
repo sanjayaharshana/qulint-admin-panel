@@ -5,7 +5,7 @@
     "keywords": ["laravel", "admin", "grid", "form", "qulint-admin","qulint","free"],
     "homepage": "https://github.com/sanjayaharshana/qulint-admin-panel",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "3.0.0",
     "minimum-stability": "stable",
     "prefer-stable": true,
     "authors": [
@@ -15,16 +15,16 @@
         }
     ],
     "require": {
-        "php": "~7.3|~8.0",
-        "symfony/dom-crawler": "~3.1|~4.0|~5.0",
-        "laravel/framework": ">=7.0",
-        "doctrine/dbal": "2.*|3.*"
+        "php": "^8.1",
+        "symfony/dom-crawler": "^5.0|^6.0|^7.0",
+        "laravel/framework": "^10.0|^11.0|^12.0",
+        "doctrine/dbal": "^3.0"
     },
     "require-dev": {
-        "laravel/laravel": ">=8.0",
-        "fzaninotto/faker": "~1.4",
-        "intervention/image": "~2.3",
-        "laravel/browser-kit-testing": "^6.0",
+        "laravel/laravel": "^10.0|^11.0|^12.0",
+        "fakerphp/faker": "^1.20",
+        "intervention/image": "^2.7",
+        "laravel/browser-kit-testing": "^7.0",
         "spatie/phpunit-watcher": "^1.22.0"
     },
     "autoload": {
