@@ -3,29 +3,29 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue.svg)](composer.json)
 [![Laravel Version](https://img.shields.io/badge/laravel-%3E%3D10.0-red.svg)](composer.json)
-[![Latest Version](https://img.shields.io/badge/version-3.0.15-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
+[![Latest Version](https://img.shields.io/badge/version-3.0.16-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
 
 A modern, feature-rich Laravel admin panel that's completely free and open-source. Built on top of Laravel framework with a beautiful, responsive interface and extensive functionality. **Qulint Admin Panel** is an upgraded fork of [Open Admin](https://github.com/qulint-admin-org/qulint-admin) that supports Laravel 11 and Laravel 12, since the original Open Admin project has stopped development after Laravel 10.
 
-## What's New in v3.0.15
+## What's New in v3.0.16
 
-### 🎉 Release: Documentation Updates & URL Corrections
-- **✅ Fixed Open Admin Reference**: Updated URL to correct qulint-admin-org repository
-- **✅ Improved Documentation**: Enhanced README with better clarity
-- **✅ Asset Path Consistency**: Corrected asset path descriptions
-- **✅ Better User Experience**: Cleaner documentation structure
+### 🎉 Release: Enhanced Installation & Packagist Integration
+- **✅ Improved Packagist Integration**: Better package discovery and installation
+- **✅ Enhanced Installation Process**: Streamlined setup and configuration
+- **✅ Better Error Handling**: Improved user feedback during installation
+- **✅ Documentation Updates**: Enhanced installation guides and troubleshooting
 
-### 🔧 Documentation Improvements
-- Fixed Open Admin reference URL consistency
-- Updated asset path descriptions for clarity
-- Improved documentation structure and readability
-- Enhanced installation instructions
+### 🔧 Installation Improvements
+- Better Composer package discovery
+- Enhanced error messages for installation issues
+- Improved dependency resolution
+- Streamlined setup process
 
-### 📦 Minor Updates
-- Better documentation formatting
-- Consistent URL references throughout
-- Improved code examples
-- Enhanced user guidance
+### 📦 User Experience Enhancements
+- Clearer installation instructions
+- Better troubleshooting guides
+- Enhanced documentation clarity
+- Improved user feedback
 
 ## Features
 
