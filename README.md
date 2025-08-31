@@ -3,35 +3,33 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue.svg)](composer.json)
 [![Laravel Version](https://img.shields.io/badge/laravel-%3E%3D10.0-red.svg)](composer.json)
-[![Latest Version](https://img.shields.io/badge/version-3.0.20-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
+[![Latest Version](https://img.shields.io/badge/version-3.0.21-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
 
 A modern, feature-rich Laravel admin panel that's completely free and open-source. Built on top of Laravel framework with a beautiful, responsive interface and extensive functionality. **Qulint Admin Panel** is an upgraded fork of [Open Admin](https://github.com/qulint-admin-org/qulint-admin) that supports Laravel 11 and Laravel 12, since the original Open Admin project has stopped development after Laravel 10.
 
-## What's New in v3.0.20
+## What's New in v3.0.21
 
-### 🎨 Release: Modern White Theme System
-- **✅ Complete Theme System**: Comprehensive modern white theme with 7 variants
-- **✅ Dynamic Theme Switching**: JavaScript-powered theme switcher with persistence
-- **✅ CSS Custom Properties**: Easy customization with CSS variables
-- **✅ Responsive Design**: Mobile-friendly layouts with touch-friendly elements
+### 🎨 Release: Updated Main Styles with Modern White Theme
+- **✅ Complete CSS Overhaul**: Replaced Bootstrap CSS with custom modern white theme
+- **✅ Theme System Integration**: Integrated with modern-white-theme.css and theme-config.css
+- **✅ Clean Modern Design**: Removed all Bootstrap dependencies and created custom components
+- **✅ Enhanced User Experience**: Improved styling for all admin panel components
 
-### 🎨 Theme Variants
-- **Modern White** - Clean white theme with blue accents (default)
-- **Light Blue** - Soft blue theme with light backgrounds
-- **Light Green** - Fresh green theme with natural colors
-- **Light Purple** - Elegant purple theme with soft tones
-- **Minimal** - Minimalist black and white design
-- **Modern Gray** - Sophisticated gray theme
-- **Warm White** - Warm white theme with orange accents
+### 🎨 Modern Components
+- **Custom Cards**: Clean, modern card design with hover effects
+- **Modern Buttons**: Consistent button styling with proper states
+- **Enhanced Forms**: Improved form controls with focus states
+- **Clean Tables**: Modern table design with hover effects
+- **Responsive Alerts**: Better alert styling with color variants
+- **Modern Badges**: Clean badge design for status indicators
 
-### 🔧 Modern Features
-- CSS Custom Properties for easy theming
-- Theme persistence using localStorage
-- Smooth transitions and animations
-- Accessibility features (WCAG compliant)
-- Dark mode support
-- Print-optimized styles
-- Comprehensive component library
+### 🔧 Technical Improvements
+- **CSS Custom Properties**: Full integration with theme system
+- **Responsive Design**: Mobile-first approach with breakpoints
+- **Accessibility**: WCAG compliant with focus states and reduced motion
+- **Performance**: Optimized CSS with modern best practices
+- **Browser Support**: Cross-browser compatibility
+- **Print Styles**: Optimized for printing
 
 ## Features
 
