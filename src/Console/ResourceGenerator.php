@@ -213,15 +213,18 @@ class ResourceGenerator
      */
     protected function getTableColumns()
     {
-        if (!$this->model->getConnection()->isDoctrineAvailable()) {
+        $connection = $this->model->getConnection();
+        
+        // Check if Doctrine is available (Laravel 11/12 compatible)
+        if (!method_exists($connection, 'getDoctrineSchemaManager')) {
             throw new \Exception(
-                'You need to require doctrine/dbal: ~2.3 in your own composer.json to get database columns. '
+                'You need to require doctrine/dbal: ^3.0 in your own composer.json to get database columns. '
             );
         }
 
-        $table = $this->model->getConnection()->getTablePrefix().$this->model->getTable();
+        $table = $connection->getTablePrefix().$this->model->getTable();
         /** @var \Doctrine\DBAL\Schema\MySqlSchemaManager $schema */
-        $schema = $this->model->getConnection()->getDoctrineSchemaManager($table);
+        $schema = $connection->getDoctrineSchemaManager($table);
 
         // custom mapping the types that doctrine/dbal does not support
         $databasePlatform = $schema->getDatabasePlatform();

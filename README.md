@@ -3,29 +3,23 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue.svg)](composer.json)
 [![Laravel Version](https://img.shields.io/badge/laravel-%3E%3D10.0-red.svg)](composer.json)
-[![Latest Version](https://img.shields.io/badge/version-3.0.22-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
+[![Latest Version](https://img.shields.io/badge/version-3.0.23-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
 
 A modern, feature-rich Laravel admin panel that's completely free and open-source. Built on top of Laravel framework with a beautiful, responsive interface and extensive functionality. **Qulint Admin Panel** is an upgraded fork of [Open Admin](https://github.com/qulint-admin-org/qulint-admin) that supports Laravel 11 and Laravel 12, since the original Open Admin project has stopped development after Laravel 10.
 
-## What's New in v3.0.22
+## What's New in v3.0.23
 
-### 🔧 Release: Fixed CSS Asset Loading Issues
-- **✅ Fixed CSS Import Errors**: Removed problematic @import statements that were causing 404 errors
-- **✅ Direct Variable Integration**: Integrated theme variables directly into styles.css for better reliability
-- **✅ Enhanced Asset Loading**: Improved CSS file structure to prevent loading failures
-- **✅ Comprehensive Troubleshooting**: Added detailed asset loading troubleshooting guide
+### 🔧 Release: Laravel 11/12 Compatibility Fix
+- **✅ Fixed Doctrine Method Error**: Replaced deprecated `isDoctrineAvailable()` method with Laravel 11/12 compatible check
+- **✅ Enhanced Resource Generation**: Improved compatibility for `admin:make` command in newer Laravel versions
+- **✅ Better Error Handling**: More informative error messages for missing Doctrine DBAL dependency
+- **✅ Full Laravel 12 Support**: Now fully compatible with Laravel 12.x
 
-### 🔧 Asset Loading Fixes
-- **Removed @import Dependencies**: Eliminated external CSS imports that were failing
-- **Direct CSS Variables**: All theme variables now defined directly in main CSS file
-- **Better Error Handling**: Improved CSS structure to prevent loading issues
-- **Enhanced Documentation**: Comprehensive troubleshooting guide for asset loading
-
-### 📚 Documentation Improvements
-- **Asset Troubleshooting Guide**: Complete guide for fixing CSS loading issues
-- **Step-by-Step Solutions**: Detailed troubleshooting steps for common problems
-- **Environment-Specific Fixes**: Solutions for different development environments
-- **Verification Steps**: How to confirm assets are loading correctly
+### 🔧 Laravel 11/12 Compatibility
+- **Removed Deprecated Methods**: Eliminated use of `isDoctrineAvailable()` method
+- **Modern Method Detection**: Uses `method_exists()` for better compatibility
+- **Updated Error Messages**: Clear guidance for Doctrine DBAL requirements
+- **Enhanced Resource Generation**: Fixed `admin:make` command for newer Laravel versions
 
 ## Features
 
