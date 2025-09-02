@@ -3,23 +3,23 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue.svg)](composer.json)
 [![Laravel Version](https://img.shields.io/badge/laravel-%3E%3D10.0-red.svg)](composer.json)
-[![Latest Version](https://img.shields.io/badge/version-3.0.24-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
+[![Latest Version](https://img.shields.io/badge/version-3.0.25-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
 
 A modern, feature-rich Laravel admin panel that's completely free and open-source. Built on top of Laravel framework with a beautiful, responsive interface and extensive functionality. **Qulint Admin Panel** is an upgraded fork of [Open Admin](https://github.com/qulint-admin-org/qulint-admin) that supports Laravel 11 and Laravel 12, since the original Open Admin project has stopped development after Laravel 10.
 
-## What's New in v3.0.24
+## What's New in v3.0.25
 
-### 🔧 Release: Doctrine DBAL 4.x Compatibility Fix
-- **✅ Fixed Doctrine DBAL 4.x Support**: Added compatibility for Doctrine DBAL 4.x API changes
-- **✅ Enhanced Resource Generation**: Now supports both Doctrine DBAL 3.x and 4.x versions
-- **✅ Improved API Detection**: Automatic detection of Doctrine DBAL version and appropriate API usage
-- **✅ Better Error Handling**: More informative error messages for missing dependencies
+### 🔧 Release: Laravel Native Schema Fallback
+- **✅ Added Laravel Native Fallback**: Added fallback to Laravel's native schema methods when Doctrine is not available
+- **✅ Enhanced Compatibility**: Now works without requiring Doctrine DBAL at all
+- **✅ Improved Error Handling**: Graceful fallback instead of throwing exceptions
+- **✅ Better Resource Generation**: Can generate controllers even without Doctrine DBAL
 
-### 🔧 Doctrine DBAL Compatibility
-- **Dual API Support**: Supports both `getDoctrineSchemaManager()` (3.x) and `getDoctrineConnection()` (4.x)
-- **Automatic Version Detection**: Detects Doctrine DBAL version and uses appropriate API
-- **Schema Manager Creation**: Uses `createSchemaManager()` for DBAL 4.x compatibility
-- **Enhanced Error Messages**: Clear guidance for Doctrine DBAL requirements
+### 🔧 Laravel Native Schema Support
+- **Native Schema Builder**: Uses Laravel's `getSchemaBuilder()->getColumnListing()` method
+- **Doctrine-like Objects**: Creates compatible column objects for existing code
+- **No Dependencies**: Works without requiring any additional packages
+- **Universal Compatibility**: Works with all Laravel versions and database types
 
 ## Features
 

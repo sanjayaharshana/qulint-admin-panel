@@ -209,7 +209,7 @@ class ResourceGenerator
      *
      * @throws \Exception
      *
-     * @return \Doctrine\DBAL\Schema\Column[]
+     * @return array
      */
     protected function getTableColumns()
     {
@@ -223,10 +223,53 @@ class ResourceGenerator
             // Doctrine DBAL 4.x compatibility
             return $this->getTableColumnsV4($connection);
         } else {
-            throw new \Exception(
-                'You need to require doctrine/dbal: ^3.0 or ^4.0 in your own composer.json to get database columns. '
-            );
+            // Fallback to Laravel's native schema methods
+            return $this->getTableColumnsNative($connection);
         }
+    }
+
+    /**
+     * Get table columns using Laravel's native schema methods.
+     *
+     * @param \Illuminate\Database\Connection $connection
+     * @return array
+     */
+    protected function getTableColumnsNative($connection)
+    {
+        $table = $connection->getTablePrefix().$this->model->getTable();
+        
+        // Use Laravel's schema builder to get column information
+        $columns = $connection->getSchemaBuilder()->getColumnListing($table);
+        
+        // Convert to Doctrine-like column objects for compatibility
+        $columnObjects = [];
+        foreach ($columns as $columnName) {
+            $columnObjects[] = new class($columnName) {
+                private $name;
+                
+                public function __construct($name) {
+                    $this->name = $name;
+                }
+                
+                public function getName() {
+                    return $this->name;
+                }
+                
+                public function getType() {
+                    return new class() {
+                        public function getName() {
+                            return 'string'; // Default to string type
+                        }
+                    };
+                }
+                
+                public function getDefault() {
+                    return null; // Default to null
+                }
+            };
+        }
+        
+        return $columnObjects;
     }
 
     /**
