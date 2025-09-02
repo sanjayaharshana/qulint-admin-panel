@@ -215,13 +215,28 @@ class ResourceGenerator
     {
         $connection = $this->model->getConnection();
         
-        // Check if Doctrine is available (Laravel 11/12 compatible)
-        if (!method_exists($connection, 'getDoctrineSchemaManager')) {
+        // Check if Doctrine is available and get the appropriate schema manager
+        if (method_exists($connection, 'getDoctrineSchemaManager')) {
+            // Doctrine DBAL 3.x compatibility
+            return $this->getTableColumnsV3($connection);
+        } elseif (method_exists($connection, 'getDoctrineConnection')) {
+            // Doctrine DBAL 4.x compatibility
+            return $this->getTableColumnsV4($connection);
+        } else {
             throw new \Exception(
-                'You need to require doctrine/dbal: ^3.0 in your own composer.json to get database columns. '
+                'You need to require doctrine/dbal: ^3.0 or ^4.0 in your own composer.json to get database columns. '
             );
         }
+    }
 
+    /**
+     * Get table columns using Doctrine DBAL 3.x API.
+     *
+     * @param \Illuminate\Database\Connection $connection
+     * @return \Doctrine\DBAL\Schema\Column[]
+     */
+    protected function getTableColumnsV3($connection)
+    {
         $table = $connection->getTablePrefix().$this->model->getTable();
         /** @var \Doctrine\DBAL\Schema\MySqlSchemaManager $schema */
         $schema = $connection->getDoctrineSchemaManager($table);
@@ -241,6 +256,37 @@ class ResourceGenerator
         }
 
         return $schema->listTableColumns($table, $database);
+    }
+
+    /**
+     * Get table columns using Doctrine DBAL 4.x API.
+     *
+     * @param \Illuminate\Database\Connection $connection
+     * @return \Doctrine\DBAL\Schema\Column[]
+     */
+    protected function getTableColumnsV4($connection)
+    {
+        $table = $connection->getTablePrefix().$this->model->getTable();
+        $doctrineConnection = $connection->getDoctrineConnection();
+        
+        // Create schema manager for DBAL 4.x
+        $schemaManager = $doctrineConnection->createSchemaManager();
+
+        // custom mapping the types that doctrine/dbal does not support
+        $databasePlatform = $doctrineConnection->getDatabasePlatform();
+
+        foreach ($this->doctrineTypeMapping as $doctrineType => $dbTypes) {
+            foreach ($dbTypes as $dbType) {
+                $databasePlatform->registerDoctrineTypeMapping($dbType, $doctrineType);
+            }
+        }
+
+        $database = null;
+        if (strpos($table, '.')) {
+            list($database, $table) = explode('.', $table);
+        }
+
+        return $schemaManager->listTableColumns($table, $database);
     }
 
     /**

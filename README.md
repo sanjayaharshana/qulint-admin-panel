@@ -3,23 +3,23 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue.svg)](composer.json)
 [![Laravel Version](https://img.shields.io/badge/laravel-%3E%3D10.0-red.svg)](composer.json)
-[![Latest Version](https://img.shields.io/badge/version-3.0.23-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
+[![Latest Version](https://img.shields.io/badge/version-3.0.24-blue.svg)](https://packagist.org/packages/sanjayaharshana/qulint-admin-panel)
 
 A modern, feature-rich Laravel admin panel that's completely free and open-source. Built on top of Laravel framework with a beautiful, responsive interface and extensive functionality. **Qulint Admin Panel** is an upgraded fork of [Open Admin](https://github.com/qulint-admin-org/qulint-admin) that supports Laravel 11 and Laravel 12, since the original Open Admin project has stopped development after Laravel 10.
 
-## What's New in v3.0.23
+## What's New in v3.0.24
 
-### 🔧 Release: Laravel 11/12 Compatibility Fix
-- **✅ Fixed Doctrine Method Error**: Replaced deprecated `isDoctrineAvailable()` method with Laravel 11/12 compatible check
-- **✅ Enhanced Resource Generation**: Improved compatibility for `admin:make` command in newer Laravel versions
-- **✅ Better Error Handling**: More informative error messages for missing Doctrine DBAL dependency
-- **✅ Full Laravel 12 Support**: Now fully compatible with Laravel 12.x
+### 🔧 Release: Doctrine DBAL 4.x Compatibility Fix
+- **✅ Fixed Doctrine DBAL 4.x Support**: Added compatibility for Doctrine DBAL 4.x API changes
+- **✅ Enhanced Resource Generation**: Now supports both Doctrine DBAL 3.x and 4.x versions
+- **✅ Improved API Detection**: Automatic detection of Doctrine DBAL version and appropriate API usage
+- **✅ Better Error Handling**: More informative error messages for missing dependencies
 
-### 🔧 Laravel 11/12 Compatibility
-- **Removed Deprecated Methods**: Eliminated use of `isDoctrineAvailable()` method
-- **Modern Method Detection**: Uses `method_exists()` for better compatibility
-- **Updated Error Messages**: Clear guidance for Doctrine DBAL requirements
-- **Enhanced Resource Generation**: Fixed `admin:make` command for newer Laravel versions
+### 🔧 Doctrine DBAL Compatibility
+- **Dual API Support**: Supports both `getDoctrineSchemaManager()` (3.x) and `getDoctrineConnection()` (4.x)
+- **Automatic Version Detection**: Detects Doctrine DBAL version and uses appropriate API
+- **Schema Manager Creation**: Uses `createSchemaManager()` for DBAL 4.x compatibility
+- **Enhanced Error Messages**: Clear guidance for Doctrine DBAL requirements
 
 ## Features
 
